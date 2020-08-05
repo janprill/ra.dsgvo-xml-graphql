@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ACT" type="ACTType"/>
+  <xs:complexType name="DOCUMENT.REFType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="COLL"/>
+      <xs:element type="xs:string" name="NO.OJ"/>
+      <xs:element type="xs:string" name="YEAR"/>
+      <xs:element type="xs:string" name="LG.OJ"/>
+      <xs:element type="xs:string" name="PAGE.FIRST"/>
+      <xs:element type="xs:string" name="PAGE.SEQ"/>
+      <xs:element type="xs:string" name="VOLUME.REF"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="FILE"/>
+  </xs:complexType>
+  <xs:complexType name="DATEType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="ISO" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="NO.DOCType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="NO.CURRENT"/>
+      <xs:element type="xs:string" name="YEAR"/>
+      <xs:element type="xs:string" name="COM"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="FORMAT"/>
+    <xs:attribute type="xs:string" name="TYPE"/>
+  </xs:complexType>
+  <xs:complexType name="BIB.INSTANCEType">
+    <xs:sequence>
+      <xs:element type="DOCUMENT.REFType" name="DOCUMENT.REF"/>
+      <xs:element type="xs:string" name="EEA"/>
+      <xs:element type="DATEType" name="DATE"/>
+      <xs:element type="xs:string" name="LG.DOC"/>
+      <xs:element type="xs:string" name="NO.SEQ"/>
+      <xs:element type="xs:string" name="PAGE.FIRST"/>
+      <xs:element type="xs:string" name="PAGE.SEQ"/>
+      <xs:element type="xs:string" name="PAGE.LAST"/>
+      <xs:element type="xs:string" name="PAGE.TOTAL"/>
+      <xs:element type="NO.DOCType" name="NO.DOC"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="HTType" mixed="true">
+    <xs:sequence>
+      <xs:element type="HTType" name="HT" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="TYPE" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="PType" mixed="true">
+    <xs:sequence>
+      <xs:element type="HTType" name="HT" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="DATEType" name="DATE" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="QUOT.STARTType" name="QUOT.START" minOccurs="0"/>
+      <xs:element type="QUOT.ENDType" name="QUOT.END" minOccurs="0"/>
+      <xs:element type="REF.DOC.OJType" name="REF.DOC.OJ" minOccurs="0"/>
+      <xs:element type="LISTType" name="LIST" minOccurs="0"/>
+      <xs:element type="FTType" name="FT" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="TIType">
+    <xs:sequence>
+      <xs:element type="PType" name="P" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="TITLEType">
+    <xs:sequence>
+      <xs:element type="TIType" name="TI"/>
+      <xs:element type="STIType" name="STI" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="REF.DOC.OJType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="COLL" use="optional"/>
+        <xs:attribute type="xs:string" name="DATE.PUB" use="optional"/>
+        <xs:attribute type="xs:string" name="NO.OJ" use="optional"/>
+        <xs:attribute type="xs:string" name="PAGE.FIRST" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="NOTEType">
+    <xs:sequence>
+      <xs:element type="PType" name="P"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="NOTE.ID" use="optional"/>
+    <xs:attribute type="xs:string" name="NUMBERING" use="optional"/>
+    <xs:attribute type="xs:string" name="TYPE" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="VISAType" mixed="true">
+    <xs:sequence>
+      <xs:element type="NOTEType" name="NOTE" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GR.VISAType">
+    <xs:sequence>
+      <xs:element name="VISA" maxOccurs="unbounded" minOccurs="0">
+        <xs:complexType mixed="true">
+          <xs:sequence>
+            <xs:element type="NOTEType" name="NOTE" minOccurs="0"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="QUOT.STARTType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="CODE" use="optional"/>
+        <xs:attribute type="xs:string" name="ID" use="optional"/>
+        <xs:attribute type="xs:string" name="REF.END" use="optional"/>
+        <xs:attribute type="xs:string" name="REF.START" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="QUOT.ENDType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="CODE" use="optional"/>
+        <xs:attribute type="xs:string" name="ID" use="optional"/>
+        <xs:attribute type="xs:string" name="REF.START" use="optional"/>
+        <xs:attribute type="xs:string" name="REF.END" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="TXTType" mixed="true">
+    <xs:choice maxOccurs="unbounded" minOccurs="0">
+      <xs:element type="QUOT.STARTType" name="QUOT.START"/>
+      <xs:element type="QUOT.ENDType" name="QUOT.END"/>
+      <xs:element type="NOTEType" name="NOTE"/>
+      <xs:element type="DATEType" name="DATE"/>
+    </xs:choice>
+  </xs:complexType>
+  <xs:complexType name="NPType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="NO.P"/>
+      <xs:element type="TXTType" name="TXT"/>
+      <xs:element name="P" minOccurs="0">
+        <xs:complexType mixed="true">
+          <xs:sequence>
+            <xs:element type="HTType" name="HT" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element type="DATEType" name="DATE" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element type="QUOT.STARTType" name="QUOT.START" minOccurs="0"/>
+            <xs:element type="QUOT.ENDType" name="QUOT.END" minOccurs="0"/>
+            <xs:element type="REF.DOC.OJType" name="REF.DOC.OJ" minOccurs="0"/>
+            <xs:element type="LISTType" name="LIST" minOccurs="0"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CONSIDType">
+    <xs:sequence>
+      <xs:element type="NPType" name="NP"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GR.CONSIDType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="GR.CONSID.INIT"/>
+      <xs:element type="CONSIDType" name="CONSID" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PREAMBLEType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="PREAMBLE.INIT"/>
+      <xs:element type="GR.VISAType" name="GR.VISA"/>
+      <xs:element type="GR.CONSIDType" name="GR.CONSID"/>
+      <xs:element type="xs:string" name="PREAMBLE.FINAL"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="STIType">
+    <xs:sequence>
+      <xs:element type="PType" name="P"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PARAGType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="NO.PARAG"/>
+      <xs:element name="ALINEA" maxOccurs="unbounded" minOccurs="0">
+        <xs:complexType mixed="true">
+          <xs:sequence>
+            <xs:element name="P" minOccurs="0">
+              <xs:complexType mixed="true">
+                <xs:sequence>
+                  <xs:element type="HTType" name="HT" maxOccurs="unbounded" minOccurs="0"/>
+                  <xs:element type="DATEType" name="DATE" maxOccurs="unbounded" minOccurs="0"/>
+                  <xs:element type="QUOT.STARTType" name="QUOT.START" minOccurs="0"/>
+                  <xs:element type="QUOT.ENDType" name="QUOT.END" minOccurs="0"/>
+                  <xs:element type="REF.DOC.OJType" name="REF.DOC.OJ" minOccurs="0"/>
+                  <xs:element type="LISTType" name="LIST" minOccurs="0"/>
+                  <xs:element type="FTType" name="FT" minOccurs="0"/>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element type="LISTType" name="LIST" minOccurs="0"/>
+            <xs:element type="QUOT.STARTType" name="QUOT.START" minOccurs="0"/>
+            <xs:element type="QUOT.ENDType" name="QUOT.END" minOccurs="0"/>
+            <xs:element type="HTType" name="HT" minOccurs="0"/>
+            <xs:element type="DATEType" name="DATE" minOccurs="0"/>
+            <xs:element type="NOTEType" name="NOTE" minOccurs="0"/>
+            <xs:element type="FTType" name="FT" minOccurs="0"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="IDENTIFIER" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="ARTICLEType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="TI.ART"/>
+      <xs:element name="STI.ART">
+        <xs:complexType mixed="true">
+          <xs:sequence>
+            <xs:element type="QUOT.STARTType" name="QUOT.START" minOccurs="0"/>
+            <xs:element type="QUOT.ENDType" name="QUOT.END" minOccurs="0"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element type="PARAGType" name="PARAG" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="ALINEAType" name="ALINEA" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="IDENTIFIER" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="ITEMType">
+    <xs:sequence>
+      <xs:element type="NPType" name="NP" minOccurs="0"/>
+      <xs:element name="P" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="vom Parlament,"/>
+            <xs:enumeration value="von der Regierung,"/>
+            <xs:enumeration value="vom Staatsoberhaupt oder"/>
+            <xs:enumeration value="von einer unabhängigen Stelle, die nach dem Recht des Mitgliedstaats mit der Ernennung betraut wird."/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LISTType">
+    <xs:sequence>
+      <xs:element type="ITEMType" name="ITEM" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="TYPE" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="ALINEAType" mixed="true">
+    <xs:sequence>
+      <xs:element name="P" minOccurs="0">
+        <xs:complexType mixed="true">
+          <xs:sequence>
+            <xs:element type="HTType" name="HT" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element type="DATEType" name="DATE" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element type="QUOT.STARTType" name="QUOT.START" minOccurs="0"/>
+            <xs:element type="QUOT.ENDType" name="QUOT.END" minOccurs="0"/>
+            <xs:element type="REF.DOC.OJType" name="REF.DOC.OJ" minOccurs="0"/>
+            <xs:element type="LISTType" name="LIST" minOccurs="0"/>
+            <xs:element type="FTType" name="FT" minOccurs="0"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element type="LISTType" name="LIST" minOccurs="0"/>
+      <xs:element type="QUOT.STARTType" name="QUOT.START" minOccurs="0"/>
+      <xs:element type="QUOT.ENDType" name="QUOT.END" minOccurs="0"/>
+      <xs:element type="HTType" name="HT" minOccurs="0"/>
+      <xs:element type="DATEType" name="DATE" minOccurs="0"/>
+      <xs:element type="NOTEType" name="NOTE" minOccurs="0"/>
+      <xs:element type="FTType" name="FT" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DIVISIONType">
+    <xs:sequence>
+      <xs:element type="TITLEType" name="TITLE"/>
+      <xs:element type="ARTICLEType" name="ARTICLE" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="DIVISIONType" name="DIVISION" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="STI.ARTType" mixed="true">
+    <xs:sequence>
+      <xs:element type="QUOT.STARTType" name="QUOT.START" minOccurs="0"/>
+      <xs:element type="QUOT.ENDType" name="QUOT.END" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="FTType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="TYPE" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="ENACTING.TERMSType">
+    <xs:sequence>
+      <xs:element type="DIVISIONType" name="DIVISION" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PL.DATEType">
+    <xs:sequence>
+      <xs:element type="PType" name="P"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SIGNATORYType">
+    <xs:sequence>
+      <xs:element type="PType" name="P" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SIGNATUREType">
+    <xs:sequence>
+      <xs:element type="PL.DATEType" name="PL.DATE"/>
+      <xs:element type="SIGNATORYType" name="SIGNATORY" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="FINALType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="P"/>
+      <xs:element type="SIGNATUREType" name="SIGNATURE"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ACTType">
+    <xs:sequence>
+      <xs:element type="BIB.INSTANCEType" name="BIB.INSTANCE"/>
+      <xs:element type="TITLEType" name="TITLE"/>
+      <xs:element type="PREAMBLEType" name="PREAMBLE"/>
+      <xs:element type="ENACTING.TERMSType" name="ENACTING.TERMS"/>
+      <xs:element type="FINALType" name="FINAL"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
