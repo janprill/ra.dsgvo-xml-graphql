@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?><root>
+    <preamble>
+        DAS EUROPÄISCHE PARLAMENT UND DER RAT DER EUROPÄISCHEN UNION —in Erwägung nachstehender Gründe:
+        <number>(1)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(2)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(3)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
+                <note>
+                    <p>24. Oktober 1995ABl. L 281 vom 23.11.1995, S. 31</p>
+                </note>
+            </TXT>
+        </TXT>
+        <number>(4)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(5)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(6)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(7)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(8)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(9)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(10)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(11)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(12)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(13)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
+                <note>
+                    <p>6. Mai 2003ABl. L 124 vom 20.5.2003, S. 36</p>
+                </note>
+            </TXT>
+        </TXT>
+        <number>(14)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(15)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(16)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(17)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
+                <note>
+                    <p>18. Dezember 2000ABl. L 8 vom 12.1.2001, S. 1</p>
+                </note>
+            </TXT>
+        </TXT>
+        <number>(18)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(19)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
+                <note>
+                    <p>27. April 2016</p>
+                </note>
+            </TXT>
+        </TXT>
+        <p/>
+        <number>(20)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(21)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
+                <note>
+                    <p>8. Juni 2000ABl. L 178 vom 17.7.2000, S. 1</p>
+                </note>
+            </TXT>
+        </TXT>
+        <number>(22)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(23)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(24)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(25)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(26)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(27)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(28)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(29)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(30)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(31)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(32)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(33)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(34)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(35)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
+                <note>
+                    <p>9. März 2011ABl. L 88 vom 4.4.2011, S. 45</p>
+                </note>
+            </TXT>
+        </TXT>
+        <number>(36)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(37)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(38)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(39)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(40)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(41)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(42)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
+                <note>
+                    <p>5. April 1993ABl. L 95 vom 21.4.1993, S. 29</p>
+                </note>
+            </TXT>
+        </TXT>
+        <number>(43)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(44)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(45)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(46)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(47)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(48)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(49)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(50)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <p/>
+        <number>(51)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(52)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(53)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(54)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
+                <note>
+                    <p>16. Dezember 2008ABl. L 354 vom 31.12.2008, S. 70</p>
+                </note>
+            </TXT>
+        </TXT>
+        <number>(55)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(56)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(57)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(58)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(59)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(60)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(61)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(62)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(63)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(64)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(65)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(66)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(67)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(68)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(69)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(70)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(71)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <p/>
+        <number>(72)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(73)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(74)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(75)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(76)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(77)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(78)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(79)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(80)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(81)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(82)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(83)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(84)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(85)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(86)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(87)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(88)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(89)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(90)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(91)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(92)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(93)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(94)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(95)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(96)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(97)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(98)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(99)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(100)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(101)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(102)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(103)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(104)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(105)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">28. Januar 1981</TXT>
+        </TXT>
+        <number>(106)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
+                <note>
+                    <p>16. Februar 2011ABl. L 55 vom 28.2.2011, S. 13</p>
+                </note>
+            </TXT>
+        </TXT>
+        <number>(107)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(108)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(109)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(110)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(111)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(112)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(113)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(114)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(115)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(116)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(117)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(118)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(119)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(120)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(121)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(122)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(123)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(124)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(125)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(126)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(127)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(128)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(129)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(130)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(131)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(132)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(133)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(134)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(135)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(136)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(137)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(138)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(139)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(140)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(141)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(142)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(143)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <p/>
+        <number>(144)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(145)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(146)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(147)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
+                <note>
+                    <p>12. Dezember 2012ABl. L 351 vom 20.12.2012, S. 1</p>
+                </note>
+            </TXT>
+        </TXT>
+        <number>(148)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(149)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(150)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(151)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(152)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(153)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(154)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
+                <note>
+                    <p>17. November 2003ABl. L 345 vom 31.12.2003, S. 90</p>
+                </note>
+            </TXT>
+        </TXT>
+        <number>(155)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(156)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(157)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(158)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(159)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(160)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(161)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
+                <note>
+                    <p>16. April 2014ABl. L 158 vom 27.5.2014, S. 1</p>
+                </note>
+            </TXT>
+        </TXT>
+        <number>(162)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(163)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
+                <note>
+                    <p>11. März 2009ABl. L 87 vom 31.3.2009, S. 164</p>
+                </note>
+            </TXT>
+        </TXT>
+        <number>(164)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(165)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(166)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(167)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(168)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(169)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(170)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(171)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
+        </TXT>
+        <number>(172)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
+                7. März 2012
+                <note>
+                    <p>ABl. C 192 vom 30.6.2012, S. 7</p>
+                </note>
+            </TXT>
+        </TXT>
+        <number>(173)</number>
+        <TXT>
+            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
+                <note>
+                    <p>12. Juli 2002ABl. L 201 vom 31.7.2002, S. 37</p>
+                </note>
+            </TXT>
+        </TXT>
+        HABEN FOLGENDE VERORDNUNG ERLASSEN:
+    </preamble>
+</root>
