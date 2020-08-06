@@ -1,5 +1,6 @@
 package com.remoteanwalt;
 
+import com.remoteanwalt.application.ExtractionService;
 import com.remoteanwalt.domain.jaxb.ACTType;
 
 import javax.ws.rs.GET;
@@ -27,6 +28,8 @@ public class TestResource {
         Source source = new StreamSource(inputStream);
         JAXBElement<ACTType> root = unmarshaller.unmarshal(source, ACTType.class);
         ACTType act = root.getValue();
+
+        new ExtractionService(act);
 
         return act;
     }
