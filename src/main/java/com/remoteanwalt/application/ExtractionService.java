@@ -1,48 +1,78 @@
 package com.remoteanwalt.application;
 
-import com.remoteanwalt.domain.jaxb.ACTType;
-import com.remoteanwalt.domain.jaxb.DATEType;
-import com.remoteanwalt.domain.jaxb.NOTEType;
-import com.remoteanwalt.domain.jaxb.QUOTSTARTType;
+import com.remoteanwalt.domain.consolidated.Consideration;
+import com.remoteanwalt.domain.consolidated.Item;
+import com.remoteanwalt.domain.jaxb.*;
 
 import javax.xml.bind.JAXBElement;
+import java.io.Serializable;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class ExtractionService {
     public ExtractionService(final ACTType act) {
-        act.getPREAMBLE().getGRCONSID().getCONSID().stream().forEach(consid -> {
-            System.out.println(consid.getNP().getNOP());
-            consid.getNP().getTXT().getContent().stream().forEach(content -> {
-                System.out.println("============================");
-                if (content.getClass().equals(String.class)) {
-                    System.out.println(content);
-                } else {
-                    JAXBElement element = (JAXBElement) content;
-                    if (element.getDeclaredType().equals(NOTEType.class)) {
-                        NOTEType note = (NOTEType) element.getValue();
-                        System.out.println("NOTE: " + note.getTYPE() + " " + note.getP().getContent());
-                    } else if (element.getDeclaredType().equals(DATEType.class)) {
-                        DATEType date = (DATEType) element.getValue();
-                        System.out.println(date.getISO());
-                    } else if (element.getDeclaredType().equals(QUOTSTARTType.class)) {
-                        QUOTSTARTType start = (QUOTSTARTType) element.getValue();
-                        System.out.println(start.getCODE());
-                    } else {
-                        System.out.println(content);
-                    }
-                }
+        extract(act);
+    }
 
-            });
-        });
+    private static Item apply(Serializable c) {
+        if (c.getClass().equals(String.class)) {
+            Item item = new Item();
+            item.setType(Item.Key.STRING);
+            item.getData().put("content", c.toString());
+            return item;
+        } else {
+            JAXBElement element = (JAXBElement) c;
+            if (element.getDeclaredType().equals(DATEType.class)) {
+                DATEType date = (DATEType) element.getValue();
+                Item item = new Item();
+                item.setType(Item.Key.DATE);
+                item.getData().put("iso", date.getISO());
+                item.getData().put("value", date.getValue());
+                return item;
+            } else if (element.getDeclaredType().equals(NOTEType.class)) {
+                NOTEType note = (NOTEType) element.getValue();
+                Item item = new Item();
+                item.setType(Item.Key.NOTE);
+                List<Item> collected = note.getP().getContent().stream().map(ExtractionService::apply).collect(Collectors.toList());
+                item.setItems(collected);
+                return item;
+            } else if (element.getDeclaredType().equals(QUOTSTARTType.class)) {
+                QUOTSTARTType start = (QUOTSTARTType) element.getValue();
+                System.out.println(start.getCODE());
+                Item item = new Item();
+                item.setType(Item.Key.QUOTSTART);
+                item.getData().put("code", start.getCODE());
+                item.getData().put("id", start.getID());
+                item.getData().put("value", start.getValue());
+                return item;
+            } else if (element.getDeclaredType().equals(QUOTENDType.class)) {
+                QUOTENDType end = (QUOTENDType) element.getValue();
+                Item item = new Item();
+                item.setType(Item.Key.QUOTEND);
+                item.getData().put("code", end.getCODE());
+                item.getData().put("id", end.getID());
+                item.getData().put("value", end.getValue());
+                return item;
+            }
+        }
+        return new Item();
+    }
 
-        act.getENACTINGTERMS().getDIVISION().stream().forEach(division -> {
-            System.out.println(division.getTITLE().getTI());
-            System.out.println(division.getTITLE().getSTI().getP().getContent());
-            System.out.println("==========================================");
-            division.getARTICLE().stream().forEach(article -> {
-                System.out.println(article.getIDENTIFIER());
-                System.out.println(article.getTIART());
-                System.out.println(article.getSTIART().getContent());
-            });
-        });
+    private void extract(ACTType act) {
+        List<Consideration> collect = act.getPREAMBLE().getGRCONSID().getCONSID().stream().map(consid -> {
+            Consideration consideration = new Consideration();
+            NPType np = consid.getNP();
+            consideration.setNo(np.getNOP());
+            consideration.setItems(content(np.getTXT()));
+            return consideration;
+        }).collect(Collectors.toList());
+        System.out.println(collect);
+    }
+
+    private List<Item> content(TXTType txtType) {
+        List<Serializable> content = txtType.getContent();
+        List<Item> items = content.stream().map(ExtractionService::apply).collect(Collectors.toList());
+
+        return items;
     }
 }
