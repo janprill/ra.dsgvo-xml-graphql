@@ -1,763 +1,1452 @@
-<?xml version="1.0" encoding="UTF-8"?><root>
+<?xml version="1.0" encoding="UTF-8"?><dsgvo>
     <preamble>
-        DAS EUROPÄISCHE PARLAMENT UND DER RAT DER EUROPÄISCHEN UNION —in Erwägung nachstehender Gründe:
-        <number>(1)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(2)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(3)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
-                <note>
-                    <p>24. Oktober 1995ABl. L 281 vom 23.11.1995, S. 31</p>
-                </note>
-            </TXT>
-        </TXT>
-        <number>(4)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(5)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(6)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(7)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(8)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(9)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(10)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(11)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(12)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(13)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
-                <note>
-                    <p>6. Mai 2003ABl. L 124 vom 20.5.2003, S. 36</p>
-                </note>
-            </TXT>
-        </TXT>
-        <number>(14)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(15)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(16)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(17)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
-                <note>
-                    <p>18. Dezember 2000ABl. L 8 vom 12.1.2001, S. 1</p>
-                </note>
-            </TXT>
-        </TXT>
-        <number>(18)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(19)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
-                <note>
-                    <p>27. April 2016</p>
-                </note>
-            </TXT>
-        </TXT>
-        <p/>
-        <number>(20)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(21)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
-                <note>
-                    <p>8. Juni 2000ABl. L 178 vom 17.7.2000, S. 1</p>
-                </note>
-            </TXT>
-        </TXT>
-        <number>(22)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(23)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(24)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(25)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(26)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(27)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(28)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(29)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(30)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(31)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(32)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(33)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(34)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(35)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
-                <note>
-                    <p>9. März 2011ABl. L 88 vom 4.4.2011, S. 45</p>
-                </note>
-            </TXT>
-        </TXT>
-        <number>(36)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(37)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(38)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(39)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(40)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(41)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(42)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
-                <note>
-                    <p>5. April 1993ABl. L 95 vom 21.4.1993, S. 29</p>
-                </note>
-            </TXT>
-        </TXT>
-        <number>(43)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(44)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(45)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(46)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(47)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(48)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(49)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(50)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <p/>
-        <number>(51)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(52)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(53)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(54)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
-                <note>
-                    <p>16. Dezember 2008ABl. L 354 vom 31.12.2008, S. 70</p>
-                </note>
-            </TXT>
-        </TXT>
-        <number>(55)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(56)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(57)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(58)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(59)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(60)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(61)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(62)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(63)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(64)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(65)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(66)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(67)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(68)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(69)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(70)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(71)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <p/>
-        <number>(72)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(73)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(74)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(75)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(76)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(77)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(78)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(79)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(80)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(81)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(82)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(83)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(84)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(85)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(86)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(87)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(88)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(89)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(90)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(91)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(92)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(93)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(94)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(95)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(96)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(97)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(98)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(99)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(100)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(101)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(102)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(103)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(104)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(105)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">28. Januar 1981</TXT>
-        </TXT>
-        <number>(106)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
-                <note>
-                    <p>16. Februar 2011ABl. L 55 vom 28.2.2011, S. 13</p>
-                </note>
-            </TXT>
-        </TXT>
-        <number>(107)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(108)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(109)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(110)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(111)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(112)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(113)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(114)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(115)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(116)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(117)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(118)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(119)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(120)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(121)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(122)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(123)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(124)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(125)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(126)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(127)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(128)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(129)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(130)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(131)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(132)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(133)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(134)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(135)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(136)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(137)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(138)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(139)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(140)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(141)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(142)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(143)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <p/>
-        <number>(144)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(145)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(146)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(147)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
-                <note>
-                    <p>12. Dezember 2012ABl. L 351 vom 20.12.2012, S. 1</p>
-                </note>
-            </TXT>
-        </TXT>
-        <number>(148)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(149)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(150)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(151)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(152)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(153)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(154)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
-                <note>
-                    <p>17. November 2003ABl. L 345 vom 31.12.2003, S. 90</p>
-                </note>
-            </TXT>
-        </TXT>
-        <number>(155)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(156)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(157)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(158)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(159)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(160)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(161)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
-                <note>
-                    <p>16. April 2014ABl. L 158 vom 27.5.2014, S. 1</p>
-                </note>
-            </TXT>
-        </TXT>
-        <number>(162)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(163)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
-                <note>
-                    <p>11. März 2009ABl. L 87 vom 31.3.2009, S. 164</p>
-                </note>
-            </TXT>
-        </TXT>
-        <number>(164)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(165)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(166)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(167)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(168)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(169)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(170)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(171)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce"/>
-        </TXT>
-        <number>(172)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
-                7. März 2012
-                <note>
-                    <p>ABl. C 192 vom 30.6.2012, S. 7</p>
-                </note>
-            </TXT>
-        </TXT>
-        <number>(173)</number>
-        <TXT>
-            <TXT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
-                <note>
-                    <p>12. Juli 2002ABl. L 201 vom 31.7.2002, S. 37</p>
-                </note>
-            </TXT>
-        </TXT>
-        HABEN FOLGENDE VERORDNUNG ERLASSEN:
+        <consideration>
+            <id>(1)</id>
+        </consideration>
+        <consideration>
+            <id>(2)</id>
+        </consideration>
+        <consideration>
+            <id>(3)</id>
+        </consideration>
+        <consideration>
+            <id>(4)</id>
+        </consideration>
+        <consideration>
+            <id>(5)</id>
+        </consideration>
+        <consideration>
+            <id>(6)</id>
+        </consideration>
+        <consideration>
+            <id>(7)</id>
+        </consideration>
+        <consideration>
+            <id>(8)</id>
+        </consideration>
+        <consideration>
+            <id>(9)</id>
+        </consideration>
+        <consideration>
+            <id>(10)</id>
+        </consideration>
+        <consideration>
+            <id>(11)</id>
+        </consideration>
+        <consideration>
+            <id>(12)</id>
+        </consideration>
+        <consideration>
+            <id>(13)</id>
+        </consideration>
+        <consideration>
+            <id>(14)</id>
+        </consideration>
+        <consideration>
+            <id>(15)</id>
+        </consideration>
+        <consideration>
+            <id>(16)</id>
+        </consideration>
+        <consideration>
+            <id>(17)</id>
+        </consideration>
+        <consideration>
+            <id>(18)</id>
+        </consideration>
+        <consideration>
+            <id>(19)</id>
+        </consideration>
+        <consideration>
+            <id>(20)</id>
+        </consideration>
+        <consideration>
+            <id>(21)</id>
+        </consideration>
+        <consideration>
+            <id>(22)</id>
+        </consideration>
+        <consideration>
+            <id>(23)</id>
+        </consideration>
+        <consideration>
+            <id>(24)</id>
+        </consideration>
+        <consideration>
+            <id>(25)</id>
+        </consideration>
+        <consideration>
+            <id>(26)</id>
+        </consideration>
+        <consideration>
+            <id>(27)</id>
+        </consideration>
+        <consideration>
+            <id>(28)</id>
+        </consideration>
+        <consideration>
+            <id>(29)</id>
+        </consideration>
+        <consideration>
+            <id>(30)</id>
+        </consideration>
+        <consideration>
+            <id>(31)</id>
+        </consideration>
+        <consideration>
+            <id>(32)</id>
+        </consideration>
+        <consideration>
+            <id>(33)</id>
+        </consideration>
+        <consideration>
+            <id>(34)</id>
+        </consideration>
+        <consideration>
+            <id>(35)</id>
+        </consideration>
+        <consideration>
+            <id>(36)</id>
+        </consideration>
+        <consideration>
+            <id>(37)</id>
+        </consideration>
+        <consideration>
+            <id>(38)</id>
+        </consideration>
+        <consideration>
+            <id>(39)</id>
+        </consideration>
+        <consideration>
+            <id>(40)</id>
+        </consideration>
+        <consideration>
+            <id>(41)</id>
+        </consideration>
+        <consideration>
+            <id>(42)</id>
+        </consideration>
+        <consideration>
+            <id>(43)</id>
+        </consideration>
+        <consideration>
+            <id>(44)</id>
+        </consideration>
+        <consideration>
+            <id>(45)</id>
+        </consideration>
+        <consideration>
+            <id>(46)</id>
+        </consideration>
+        <consideration>
+            <id>(47)</id>
+        </consideration>
+        <consideration>
+            <id>(48)</id>
+        </consideration>
+        <consideration>
+            <id>(49)</id>
+        </consideration>
+        <consideration>
+            <id>(50)</id>
+        </consideration>
+        <consideration>
+            <id>(51)</id>
+        </consideration>
+        <consideration>
+            <id>(52)</id>
+        </consideration>
+        <consideration>
+            <id>(53)</id>
+        </consideration>
+        <consideration>
+            <id>(54)</id>
+        </consideration>
+        <consideration>
+            <id>(55)</id>
+        </consideration>
+        <consideration>
+            <id>(56)</id>
+        </consideration>
+        <consideration>
+            <id>(57)</id>
+        </consideration>
+        <consideration>
+            <id>(58)</id>
+        </consideration>
+        <consideration>
+            <id>(59)</id>
+        </consideration>
+        <consideration>
+            <id>(60)</id>
+        </consideration>
+        <consideration>
+            <id>(61)</id>
+        </consideration>
+        <consideration>
+            <id>(62)</id>
+        </consideration>
+        <consideration>
+            <id>(63)</id>
+        </consideration>
+        <consideration>
+            <id>(64)</id>
+        </consideration>
+        <consideration>
+            <id>(65)</id>
+        </consideration>
+        <consideration>
+            <id>(66)</id>
+        </consideration>
+        <consideration>
+            <id>(67)</id>
+        </consideration>
+        <consideration>
+            <id>(68)</id>
+        </consideration>
+        <consideration>
+            <id>(69)</id>
+        </consideration>
+        <consideration>
+            <id>(70)</id>
+        </consideration>
+        <consideration>
+            <id>(71)</id>
+        </consideration>
+        <consideration>
+            <id>(72)</id>
+        </consideration>
+        <consideration>
+            <id>(73)</id>
+        </consideration>
+        <consideration>
+            <id>(74)</id>
+        </consideration>
+        <consideration>
+            <id>(75)</id>
+        </consideration>
+        <consideration>
+            <id>(76)</id>
+        </consideration>
+        <consideration>
+            <id>(77)</id>
+        </consideration>
+        <consideration>
+            <id>(78)</id>
+        </consideration>
+        <consideration>
+            <id>(79)</id>
+        </consideration>
+        <consideration>
+            <id>(80)</id>
+        </consideration>
+        <consideration>
+            <id>(81)</id>
+        </consideration>
+        <consideration>
+            <id>(82)</id>
+        </consideration>
+        <consideration>
+            <id>(83)</id>
+        </consideration>
+        <consideration>
+            <id>(84)</id>
+        </consideration>
+        <consideration>
+            <id>(85)</id>
+        </consideration>
+        <consideration>
+            <id>(86)</id>
+        </consideration>
+        <consideration>
+            <id>(87)</id>
+        </consideration>
+        <consideration>
+            <id>(88)</id>
+        </consideration>
+        <consideration>
+            <id>(89)</id>
+        </consideration>
+        <consideration>
+            <id>(90)</id>
+        </consideration>
+        <consideration>
+            <id>(91)</id>
+        </consideration>
+        <consideration>
+            <id>(92)</id>
+        </consideration>
+        <consideration>
+            <id>(93)</id>
+        </consideration>
+        <consideration>
+            <id>(94)</id>
+        </consideration>
+        <consideration>
+            <id>(95)</id>
+        </consideration>
+        <consideration>
+            <id>(96)</id>
+        </consideration>
+        <consideration>
+            <id>(97)</id>
+        </consideration>
+        <consideration>
+            <id>(98)</id>
+        </consideration>
+        <consideration>
+            <id>(99)</id>
+        </consideration>
+        <consideration>
+            <id>(100)</id>
+        </consideration>
+        <consideration>
+            <id>(101)</id>
+        </consideration>
+        <consideration>
+            <id>(102)</id>
+        </consideration>
+        <consideration>
+            <id>(103)</id>
+        </consideration>
+        <consideration>
+            <id>(104)</id>
+        </consideration>
+        <consideration>
+            <id>(105)</id>
+        </consideration>
+        <consideration>
+            <id>(106)</id>
+        </consideration>
+        <consideration>
+            <id>(107)</id>
+        </consideration>
+        <consideration>
+            <id>(108)</id>
+        </consideration>
+        <consideration>
+            <id>(109)</id>
+        </consideration>
+        <consideration>
+            <id>(110)</id>
+        </consideration>
+        <consideration>
+            <id>(111)</id>
+        </consideration>
+        <consideration>
+            <id>(112)</id>
+        </consideration>
+        <consideration>
+            <id>(113)</id>
+        </consideration>
+        <consideration>
+            <id>(114)</id>
+        </consideration>
+        <consideration>
+            <id>(115)</id>
+        </consideration>
+        <consideration>
+            <id>(116)</id>
+        </consideration>
+        <consideration>
+            <id>(117)</id>
+        </consideration>
+        <consideration>
+            <id>(118)</id>
+        </consideration>
+        <consideration>
+            <id>(119)</id>
+        </consideration>
+        <consideration>
+            <id>(120)</id>
+        </consideration>
+        <consideration>
+            <id>(121)</id>
+        </consideration>
+        <consideration>
+            <id>(122)</id>
+        </consideration>
+        <consideration>
+            <id>(123)</id>
+        </consideration>
+        <consideration>
+            <id>(124)</id>
+        </consideration>
+        <consideration>
+            <id>(125)</id>
+        </consideration>
+        <consideration>
+            <id>(126)</id>
+        </consideration>
+        <consideration>
+            <id>(127)</id>
+        </consideration>
+        <consideration>
+            <id>(128)</id>
+        </consideration>
+        <consideration>
+            <id>(129)</id>
+        </consideration>
+        <consideration>
+            <id>(130)</id>
+        </consideration>
+        <consideration>
+            <id>(131)</id>
+        </consideration>
+        <consideration>
+            <id>(132)</id>
+        </consideration>
+        <consideration>
+            <id>(133)</id>
+        </consideration>
+        <consideration>
+            <id>(134)</id>
+        </consideration>
+        <consideration>
+            <id>(135)</id>
+        </consideration>
+        <consideration>
+            <id>(136)</id>
+        </consideration>
+        <consideration>
+            <id>(137)</id>
+        </consideration>
+        <consideration>
+            <id>(138)</id>
+        </consideration>
+        <consideration>
+            <id>(139)</id>
+        </consideration>
+        <consideration>
+            <id>(140)</id>
+        </consideration>
+        <consideration>
+            <id>(141)</id>
+        </consideration>
+        <consideration>
+            <id>(142)</id>
+        </consideration>
+        <consideration>
+            <id>(143)</id>
+        </consideration>
+        <consideration>
+            <id>(144)</id>
+        </consideration>
+        <consideration>
+            <id>(145)</id>
+        </consideration>
+        <consideration>
+            <id>(146)</id>
+        </consideration>
+        <consideration>
+            <id>(147)</id>
+        </consideration>
+        <consideration>
+            <id>(148)</id>
+        </consideration>
+        <consideration>
+            <id>(149)</id>
+        </consideration>
+        <consideration>
+            <id>(150)</id>
+        </consideration>
+        <consideration>
+            <id>(151)</id>
+        </consideration>
+        <consideration>
+            <id>(152)</id>
+        </consideration>
+        <consideration>
+            <id>(153)</id>
+        </consideration>
+        <consideration>
+            <id>(154)</id>
+        </consideration>
+        <consideration>
+            <id>(155)</id>
+        </consideration>
+        <consideration>
+            <id>(156)</id>
+        </consideration>
+        <consideration>
+            <id>(157)</id>
+        </consideration>
+        <consideration>
+            <id>(158)</id>
+        </consideration>
+        <consideration>
+            <id>(159)</id>
+        </consideration>
+        <consideration>
+            <id>(160)</id>
+        </consideration>
+        <consideration>
+            <id>(161)</id>
+        </consideration>
+        <consideration>
+            <id>(162)</id>
+        </consideration>
+        <consideration>
+            <id>(163)</id>
+        </consideration>
+        <consideration>
+            <id>(164)</id>
+        </consideration>
+        <consideration>
+            <id>(165)</id>
+        </consideration>
+        <consideration>
+            <id>(166)</id>
+        </consideration>
+        <consideration>
+            <id>(167)</id>
+        </consideration>
+        <consideration>
+            <id>(168)</id>
+        </consideration>
+        <consideration>
+            <id>(169)</id>
+        </consideration>
+        <consideration>
+            <id>(170)</id>
+        </consideration>
+        <consideration>
+            <id>(171)</id>
+        </consideration>
+        <consideration>
+            <id>(172)</id>
+        </consideration>
+        <consideration>
+            <id>(173)</id>
+        </consideration>
     </preamble>
-</root>
+    <terms>
+        <ENACTING.TERMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce">
+            <division>
+                <TITLE>
+                    <TI>
+                        <P>
+                            <HT TYPE="ITALIC">KAPITEL I</HT>
+                        </P>
+                    </TI>
+                    <STI>
+                        <P>
+                            <HT TYPE="BOLD">
+                                <HT TYPE="ITALIC">Allgemeine Bestimmungen</HT>
+                            </HT>
+                        </P>
+                    </STI>
+                </TITLE>
+                <article>
+                    <id>001</id>
+                    <title>Artikel 1</title>
+                    <subtitle>Gegenstand und Ziele</subtitle>
+                </article>
+                <article>
+                    <id>002</id>
+                    <title>Artikel 2</title>
+                    <subtitle>Sachlicher Anwendungsbereich</subtitle>
+                </article>
+                <article>
+                    <id>003</id>
+                    <title>Artikel 3</title>
+                    <subtitle>Räumlicher Anwendungsbereich</subtitle>
+                </article>
+                <article>
+                    <id>004</id>
+                    <title>Artikel 4</title>
+                    <subtitle>Begriffsbestimmungen</subtitle>
+                </article>
+            </division>
+            <division>
+                <TITLE>
+                    <TI>
+                        <P>
+                            <HT TYPE="ITALIC">KAPITEL II</HT>
+                        </P>
+                    </TI>
+                    <STI>
+                        <P>
+                            <HT TYPE="BOLD">
+                                <HT TYPE="ITALIC">Grundsätze</HT>
+                            </HT>
+                        </P>
+                    </STI>
+                </TITLE>
+                <article>
+                    <id>005</id>
+                    <title>Artikel 5</title>
+                    <subtitle>Grundsätze für die Verarbeitung personenbezogener Daten</subtitle>
+                </article>
+                <article>
+                    <id>006</id>
+                    <title>Artikel 6</title>
+                    <subtitle>Rechtmäßigkeit der Verarbeitung</subtitle>
+                </article>
+                <article>
+                    <id>007</id>
+                    <title>Artikel 7</title>
+                    <subtitle>Bedingungen für die Einwilligung</subtitle>
+                </article>
+                <article>
+                    <id>008</id>
+                    <title>Artikel 8</title>
+                    <subtitle>Bedingungen für die Einwilligung eines Kindes in Bezug auf Dienste der Informationsgesellschaft</subtitle>
+                </article>
+                <article>
+                    <id>009</id>
+                    <title>Artikel 9</title>
+                    <subtitle>Verarbeitung besonderer Kategorien personenbezogener Daten</subtitle>
+                </article>
+                <article>
+                    <id>010</id>
+                    <title>Artikel 10</title>
+                    <subtitle>Verarbeitung von personenbezogenen Daten über strafrechtliche Verurteilungen und Straftaten</subtitle>
+                </article>
+                <article>
+                    <id>011</id>
+                    <title>Artikel 11</title>
+                    <subtitle>Verarbeitung, für die eine Identifizierung der betroffenen Person nicht erforderlich ist</subtitle>
+                </article>
+            </division>
+            <division>
+                <TITLE>
+                    <TI>
+                        <P>
+                            <HT TYPE="ITALIC">KAPITEL III</HT>
+                        </P>
+                    </TI>
+                    <STI>
+                        <P>
+                            <HT TYPE="BOLD">
+                                <HT TYPE="ITALIC">Rechte der betroffenen Person</HT>
+                            </HT>
+                        </P>
+                    </STI>
+                </TITLE>
+                <division>
+                    <TITLE>
+                        <TI>
+                            <P>
+                                <HT TYPE="EXPANDED">Abschnitt 1</HT>
+                            </P>
+                        </TI>
+                        <STI>
+                            <P>
+                                <HT TYPE="BOLD">
+                                    <HT TYPE="EXPANDED">Transparenz und Modalitäten</HT>
+                                </HT>
+                            </P>
+                        </STI>
+                    </TITLE>
+                    <article>
+                        <id>012</id>
+                        <title>Artikel 12</title>
+                        <subtitle>Transparente Information, Kommunikation und Modalitäten für die Ausübung der Rechte der betroffenen Person</subtitle>
+                    </article>
+                </division>
+                <division>
+                    <TITLE>
+                        <TI>
+                            <P>
+                                <HT TYPE="EXPANDED">Abschnitt 2</HT>
+                            </P>
+                        </TI>
+                        <STI>
+                            <P>
+                                <HT TYPE="BOLD">
+                                    <HT TYPE="EXPANDED">Informationspflicht und Recht auf Auskunft zu personenbezogenen Daten</HT>
+                                </HT>
+                            </P>
+                        </STI>
+                    </TITLE>
+                    <article>
+                        <id>013</id>
+                        <title>Artikel 13</title>
+                        <subtitle>Informationspflicht bei Erhebung von personenbezogenen Daten bei der betroffenen Person</subtitle>
+                    </article>
+                    <article>
+                        <id>014</id>
+                        <title>Artikel 14</title>
+                        <subtitle>Informationspflicht, wenn die personenbezogenen Daten nicht bei der betroffenen Person erhoben wurden</subtitle>
+                    </article>
+                    <?PAGE NO="43"?>
+                    <article>
+                        <id>015</id>
+                        <title>Artikel 15</title>
+                        <subtitle>Auskunftsrecht der betroffenen Person</subtitle>
+                    </article>
+                </division>
+                <division>
+                    <TITLE>
+                        <TI>
+                            <P>
+                                <HT TYPE="EXPANDED">Abschnitt 3</HT>
+                            </P>
+                        </TI>
+                        <STI>
+                            <P>
+                                <HT TYPE="BOLD">
+                                    <HT TYPE="EXPANDED">Berichtigung und Löschung</HT>
+                                </HT>
+                            </P>
+                        </STI>
+                    </TITLE>
+                    <article>
+                        <id>016</id>
+                        <title>Artikel 16</title>
+                        <subtitle>Recht auf Berichtigung</subtitle>
+                    </article>
+                    <article>
+                        <id>017</id>
+                        <title>Artikel 17</title>
+                        <subtitle>Recht auf Löschung (
+                        
+Recht auf Vergessenwerden
+                        
+)
+                    </subtitle>
+                    </article>
+                    <article>
+                        <id>018</id>
+                        <title>Artikel 18</title>
+                        <subtitle>Recht auf Einschränkung der Verarbeitung</subtitle>
+                    </article>
+                    <article>
+                        <id>019</id>
+                        <title>Artikel 19</title>
+                        <subtitle>Mitteilungspflicht im Zusammenhang mit der Berichtigung oder Löschung personenbezogener Daten oder der Einschränkung der Verarbeitung</subtitle>
+                    </article>
+                    <article>
+                        <id>020</id>
+                        <title>Artikel 20</title>
+                        <subtitle>Recht auf Datenübertragbarkeit</subtitle>
+                    </article>
+                </division>
+                <division>
+                    <TITLE>
+                        <TI>
+                            <P>
+                                <HT TYPE="EXPANDED">Abschnitt 4</HT>
+                            </P>
+                        </TI>
+                        <STI>
+                            <P>
+                                <HT TYPE="BOLD">
+                                    <HT TYPE="EXPANDED">Widerspruchsrecht und automatisierte Entscheidungsfindung im Einzelfall</HT>
+                                </HT>
+                            </P>
+                        </STI>
+                    </TITLE>
+                    <article>
+                        <id>021</id>
+                        <title>Artikel 21</title>
+                        <subtitle>Widerspruchsrecht</subtitle>
+                    </article>
+                    <article>
+                        <id>022</id>
+                        <title>Artikel 22</title>
+                        <subtitle>Automatisierte Entscheidungen im Einzelfall einschließlich Profiling</subtitle>
+                    </article>
+                </division>
+                <division>
+                    <TITLE>
+                        <TI>
+                            <P>
+                                <HT TYPE="EXPANDED">Abschnitt 5</HT>
+                            </P>
+                        </TI>
+                        <STI>
+                            <P>
+                                <HT TYPE="BOLD">
+                                    <HT TYPE="EXPANDED">Beschränkungen</HT>
+                                </HT>
+                            </P>
+                        </STI>
+                    </TITLE>
+                    <article>
+                        <id>023</id>
+                        <title>Artikel 23</title>
+                        <subtitle>Beschränkungen</subtitle>
+                    </article>
+                </division>
+            </division>
+            <division>
+                <TITLE>
+                    <TI>
+                        <P>
+                            <HT TYPE="ITALIC">KAPITEL IV</HT>
+                        </P>
+                    </TI>
+                    <STI>
+                        <P>
+                            <HT TYPE="BOLD">
+                                <HT TYPE="ITALIC">Verantwortlicher und Auftragsverarbeiter</HT>
+                            </HT>
+                        </P>
+                    </STI>
+                </TITLE>
+                <division>
+                    <TITLE>
+                        <TI>
+                            <P>
+                                <HT TYPE="EXPANDED">Abschnitt 1</HT>
+                            </P>
+                        </TI>
+                        <STI>
+                            <P>
+                                <HT TYPE="BOLD">
+                                    <HT TYPE="EXPANDED">Allgemeine Pflichten</HT>
+                                </HT>
+                            </P>
+                        </STI>
+                    </TITLE>
+                    <article>
+                        <id>024</id>
+                        <title>Artikel 24</title>
+                        <subtitle>Verantwortung des für die Verarbeitung Verantwortlichen</subtitle>
+                    </article>
+                    <?PAGE NO="48"?>
+                    <article>
+                        <id>025</id>
+                        <title>Artikel 25</title>
+                        <subtitle>Datenschutz durch Technikgestaltung und durch datenschutzfreundliche Voreinstellungen</subtitle>
+                    </article>
+                    <article>
+                        <id>026</id>
+                        <title>Artikel 26</title>
+                        <subtitle>Gemeinsam für die Verarbeitung Verantwortliche</subtitle>
+                    </article>
+                    <article>
+                        <id>027</id>
+                        <title>Artikel 27</title>
+                        <subtitle>Vertreter von nicht in der Union niedergelassenen Verantwortlichen oder Auftragsverarbeitern</subtitle>
+                    </article>
+                    <article>
+                        <id>028</id>
+                        <title>Artikel 28</title>
+                        <subtitle>Auftragsverarbeiter</subtitle>
+                    </article>
+                    <article>
+                        <id>029</id>
+                        <title>Artikel 29</title>
+                        <subtitle>Verarbeitung unter der Aufsicht des Verantwortlichen oder des Auftragsverarbeiters</subtitle>
+                    </article>
+                    <article>
+                        <id>030</id>
+                        <title>Artikel 30</title>
+                        <subtitle>Verzeichnis von Verarbeitungstätigkeiten</subtitle>
+                    </article>
+                    <article>
+                        <id>031</id>
+                        <title>Artikel 31</title>
+                        <subtitle>Zusammenarbeit mit der Aufsichtsbehörde</subtitle>
+                    </article>
+                </division>
+                <division>
+                    <TITLE>
+                        <TI>
+                            <P>
+                                <HT TYPE="EXPANDED">Abschnitt 2</HT>
+                            </P>
+                        </TI>
+                        <STI>
+                            <P>
+                                <HT TYPE="BOLD">
+                                    <HT TYPE="EXPANDED">Sicherheit personenbezogener Daten</HT>
+                                </HT>
+                            </P>
+                        </STI>
+                    </TITLE>
+                    <article>
+                        <id>032</id>
+                        <title>Artikel 32</title>
+                        <subtitle>Sicherheit der Verarbeitung</subtitle>
+                    </article>
+                    <article>
+                        <id>033</id>
+                        <title>Artikel 33</title>
+                        <subtitle>Meldung von Verletzungen des Schutzes personenbezogener Daten an die Aufsichtsbehörde</subtitle>
+                    </article>
+                    <article>
+                        <id>034</id>
+                        <title>Artikel 34</title>
+                        <subtitle>Benachrichtigung der von einer Verletzung des Schutzes personenbezogener Daten betroffenen Person</subtitle>
+                    </article>
+                </division>
+                <division>
+                    <TITLE>
+                        <TI>
+                            <P>
+                                <HT TYPE="EXPANDED">Abschnitt 3</HT>
+                            </P>
+                        </TI>
+                        <STI>
+                            <P>
+                                <HT TYPE="BOLD">
+                                    <HT TYPE="EXPANDED">Datenschutz-Folgenabschätzung und vorherige Konsultation</HT>
+                                </HT>
+                            </P>
+                        </STI>
+                    </TITLE>
+                    <article>
+                        <id>035</id>
+                        <title>Artikel 35</title>
+                        <subtitle>Datenschutz-Folgenabschätzung</subtitle>
+                    </article>
+                    <article>
+                        <id>036</id>
+                        <title>Artikel 36</title>
+                        <subtitle>Vorherige Konsultation</subtitle>
+                    </article>
+                </division>
+                <division>
+                    <TITLE>
+                        <TI>
+                            <P>
+                                <HT TYPE="EXPANDED">Abschnitt 4</HT>
+                            </P>
+                        </TI>
+                        <STI>
+                            <P>
+                                <HT TYPE="BOLD">
+                                    <HT TYPE="EXPANDED">Datenschutzbeauftragter</HT>
+                                </HT>
+                            </P>
+                        </STI>
+                    </TITLE>
+                    <article>
+                        <id>037</id>
+                        <title>Artikel 37</title>
+                        <subtitle>Benennung eines Datenschutzbeauftragten</subtitle>
+                    </article>
+                    <article>
+                        <id>038</id>
+                        <title>Artikel 38</title>
+                        <subtitle>Stellung des Datenschutzbeauftragten</subtitle>
+                    </article>
+                    <article>
+                        <id>039</id>
+                        <title>Artikel 39</title>
+                        <subtitle>Aufgaben des Datenschutzbeauftragten</subtitle>
+                    </article>
+                </division>
+                <division>
+                    <TITLE>
+                        <TI>
+                            <P>
+                                <HT TYPE="EXPANDED">Abschnitt 5</HT>
+                            </P>
+                        </TI>
+                        <STI>
+                            <P>
+                                <HT TYPE="BOLD">
+                                    <HT TYPE="EXPANDED">Verhaltensregeln und Zertifizierung</HT>
+                                </HT>
+                            </P>
+                        </STI>
+                    </TITLE>
+                    <article>
+                        <id>040</id>
+                        <title>Artikel 40</title>
+                        <subtitle>Verhaltensregeln</subtitle>
+                    </article>
+                    <article>
+                        <id>041</id>
+                        <title>Artikel 41</title>
+                        <subtitle>Überwachung der genehmigten Verhaltensregeln</subtitle>
+                    </article>
+                    <article>
+                        <id>042</id>
+                        <title>Artikel 42</title>
+                        <subtitle>Zertifizierung</subtitle>
+                    </article>
+                    <article>
+                        <id>043</id>
+                        <title>Artikel 43</title>
+                        <subtitle>Zertifizierungsstellen</subtitle>
+                    </article>
+                </division>
+            </division>
+            <division>
+                <TITLE>
+                    <TI>
+                        <P>
+                            <HT TYPE="ITALIC">KAPITEL V</HT>
+                        </P>
+                    </TI>
+                    <STI>
+                        <P>
+                            <HT TYPE="BOLD">
+                                <HT TYPE="ITALIC">Übermittlungen personenbezogener Daten an Drittländer oder an internationale Organisationen</HT>
+                            </HT>
+                        </P>
+                    </STI>
+                </TITLE>
+                <article>
+                    <id>044</id>
+                    <title>Artikel 44</title>
+                    <subtitle>Allgemeine Grundsätze der Datenübermittlung</subtitle>
+                </article>
+                <?PAGE NO="61"?>
+                <article>
+                    <id>045</id>
+                    <title>Artikel 45</title>
+                    <subtitle>Datenübermittlung auf der Grundlage eines Angemessenheitsbeschlusses</subtitle>
+                </article>
+                <article>
+                    <id>046</id>
+                    <title>Artikel 46</title>
+                    <subtitle>Datenübermittlung vorbehaltlich geeigneter Garantien</subtitle>
+                </article>
+                <article>
+                    <id>047</id>
+                    <title>Artikel 47</title>
+                    <subtitle>Verbindliche interne Datenschutzvorschriften</subtitle>
+                </article>
+                <article>
+                    <id>048</id>
+                    <title>Artikel 48</title>
+                    <subtitle>Nach dem Unionsrecht nicht zulässige Übermittlung oder Offenlegung</subtitle>
+                </article>
+                <article>
+                    <id>049</id>
+                    <title>Artikel 49</title>
+                    <subtitle>Ausnahmen für bestimmte Fälle</subtitle>
+                </article>
+                <article>
+                    <id>050</id>
+                    <title>Artikel 50</title>
+                    <subtitle>Internationale Zusammenarbeit zum Schutz personenbezogener Daten</subtitle>
+                </article>
+            </division>
+            <division>
+                <TITLE>
+                    <TI>
+                        <P>
+                            <HT TYPE="ITALIC">KAPITEL VI</HT>
+                        </P>
+                    </TI>
+                    <STI>
+                        <P>
+                            <HT TYPE="BOLD">
+                                <HT TYPE="ITALIC">Unabhängige Aufsichtsbehörden</HT>
+                            </HT>
+                        </P>
+                    </STI>
+                </TITLE>
+                <division>
+                    <TITLE>
+                        <TI>
+                            <P>
+                                <HT TYPE="EXPANDED">Abschnitt 1</HT>
+                            </P>
+                        </TI>
+                        <STI>
+                            <P>
+                                <HT TYPE="BOLD">
+                                    <HT TYPE="EXPANDED">Unabhängigkeit</HT>
+                                </HT>
+                            </P>
+                        </STI>
+                    </TITLE>
+                    <article>
+                        <id>051</id>
+                        <title>Artikel 51</title>
+                        <subtitle>Aufsichtsbehörde</subtitle>
+                    </article>
+                    <?PAGE NO="66"?>
+                    <article>
+                        <id>052</id>
+                        <title>Artikel 52</title>
+                        <subtitle>Unabhängigkeit</subtitle>
+                    </article>
+                    <article>
+                        <id>053</id>
+                        <title>Artikel 53</title>
+                        <subtitle>Allgemeine Bedingungen für die Mitglieder der Aufsichtsbehörde</subtitle>
+                    </article>
+                    <article>
+                        <id>054</id>
+                        <title>Artikel 54</title>
+                        <subtitle>Errichtung der Aufsichtsbehörde</subtitle>
+                    </article>
+                </division>
+                <division>
+                    <TITLE>
+                        <TI>
+                            <P>
+                                <HT TYPE="EXPANDED">Abschnitt 2</HT>
+                            </P>
+                        </TI>
+                        <STI>
+                            <P>
+                                <HT TYPE="BOLD">
+                                    <HT TYPE="EXPANDED">Zuständigkeit, Aufgaben und Befugnisse</HT>
+                                </HT>
+                            </P>
+                        </STI>
+                    </TITLE>
+                    <article>
+                        <id>055</id>
+                        <title>Artikel 55</title>
+                        <subtitle>Zuständigkeit</subtitle>
+                    </article>
+                    <article>
+                        <id>056</id>
+                        <title>Artikel 56</title>
+                        <subtitle>Zuständigkeit der federführenden Aufsichtsbehörde</subtitle>
+                    </article>
+                    <article>
+                        <id>057</id>
+                        <title>Artikel 57</title>
+                        <subtitle>Aufgaben</subtitle>
+                    </article>
+                    <article>
+                        <id>058</id>
+                        <title>Artikel 58</title>
+                        <subtitle>Befugnisse</subtitle>
+                    </article>
+                    <article>
+                        <id>059</id>
+                        <title>Artikel 59</title>
+                        <subtitle>Tätigkeitsbericht</subtitle>
+                    </article>
+                </division>
+            </division>
+            <?PAGE NO="71"?>
+            <division>
+                <TITLE>
+                    <TI>
+                        <P>
+                            <HT TYPE="ITALIC">KAPITEL VII</HT>
+                        </P>
+                    </TI>
+                    <STI>
+                        <P>
+                            <HT TYPE="BOLD">
+                                <HT TYPE="ITALIC">Zusammenarbeit und Kohärenz</HT>
+                            </HT>
+                        </P>
+                    </STI>
+                </TITLE>
+                <division>
+                    <TITLE>
+                        <TI>
+                            <P>
+                                <HT TYPE="EXPANDED">Abschnitt 1</HT>
+                            </P>
+                        </TI>
+                        <STI>
+                            <P>
+                                <HT TYPE="BOLD">
+                                    <HT TYPE="EXPANDED">Zusammenarbeit</HT>
+                                </HT>
+                            </P>
+                        </STI>
+                    </TITLE>
+                    <article>
+                        <id>060</id>
+                        <title>Artikel 60</title>
+                        <subtitle>Zusammenarbeit zwischen der federführenden Aufsichtsbehörde und den anderen betroffenen Aufsichtsbehörden</subtitle>
+                    </article>
+                    <article>
+                        <id>061</id>
+                        <title>Artikel 61</title>
+                        <subtitle>Gegenseitige Amtshilfe</subtitle>
+                    </article>
+                    <article>
+                        <id>062</id>
+                        <title>Artikel 62</title>
+                        <subtitle>Gemeinsame Maßnahmen der Aufsichtsbehörden</subtitle>
+                    </article>
+                </division>
+                <division>
+                    <TITLE>
+                        <TI>
+                            <P>
+                                <HT TYPE="EXPANDED">Abschnitt 2</HT>
+                            </P>
+                        </TI>
+                        <STI>
+                            <P>
+                                <HT TYPE="BOLD">
+                                    <HT TYPE="EXPANDED">Kohärenz</HT>
+                                </HT>
+                            </P>
+                        </STI>
+                    </TITLE>
+                    <article>
+                        <id>063</id>
+                        <title>Artikel 63</title>
+                        <subtitle>Kohärenzverfahren</subtitle>
+                    </article>
+                    <article>
+                        <id>064</id>
+                        <title>Artikel 64</title>
+                        <subtitle>Stellungnahme Ausschusses</subtitle>
+                    </article>
+                    <article>
+                        <id>065</id>
+                        <title>Artikel 65</title>
+                        <subtitle>Streitbeilegung durch den Ausschuss</subtitle>
+                    </article>
+                    <article>
+                        <id>066</id>
+                        <title>Artikel 66</title>
+                        <subtitle>Dringlichkeitsverfahren</subtitle>
+                    </article>
+                    <?PAGE NO="76"?>
+                    <article>
+                        <id>067</id>
+                        <title>Artikel 67</title>
+                        <subtitle>Informationsaustausch</subtitle>
+                    </article>
+                </division>
+                <division>
+                    <TITLE>
+                        <TI>
+                            <P>
+                                <HT TYPE="EXPANDED">Abschnitt 3</HT>
+                            </P>
+                        </TI>
+                        <STI>
+                            <P>
+                                <HT TYPE="BOLD">
+                                    <HT TYPE="EXPANDED">Europäischer Datenschutzausschuss</HT>
+                                </HT>
+                            </P>
+                        </STI>
+                    </TITLE>
+                    <article>
+                        <id>068</id>
+                        <title>Artikel 68</title>
+                        <subtitle>Europäischer Datenschutzausschuss</subtitle>
+                    </article>
+                    <article>
+                        <id>069</id>
+                        <title>Artikel 69</title>
+                        <subtitle>Unabhängigkeit</subtitle>
+                    </article>
+                    <article>
+                        <id>070</id>
+                        <title>Artikel 70</title>
+                        <subtitle>Aufgaben des Ausschusses</subtitle>
+                    </article>
+                    <article>
+                        <id>071</id>
+                        <title>Artikel 71</title>
+                        <subtitle>Berichterstattung</subtitle>
+                    </article>
+                    <article>
+                        <id>072</id>
+                        <title>Artikel 72</title>
+                        <subtitle>Verfahrensweise</subtitle>
+                    </article>
+                    <article>
+                        <id>073</id>
+                        <title>Artikel 73</title>
+                        <subtitle>Vorsitz</subtitle>
+                    </article>
+                    <?PAGE NO="79"?>
+                    <article>
+                        <id>074</id>
+                        <title>Artikel 74</title>
+                        <subtitle>Aufgaben des Vorsitzes</subtitle>
+                    </article>
+                    <article>
+                        <id>075</id>
+                        <title>Artikel 75</title>
+                        <subtitle>Sekretariat</subtitle>
+                    </article>
+                    <article>
+                        <id>076</id>
+                        <title>Artikel 76</title>
+                        <subtitle>Vertraulichkeit</subtitle>
+                    </article>
+                </division>
+            </division>
+            <division>
+                <TITLE>
+                    <TI>
+                        <P>
+                            <HT TYPE="ITALIC">KAPITEL VIII</HT>
+                        </P>
+                    </TI>
+                    <STI>
+                        <P>
+                            <HT TYPE="BOLD">
+                                <HT TYPE="ITALIC">Rechtsbehelfe, Haftung und Sanktionen</HT>
+                            </HT>
+                        </P>
+                    </STI>
+                </TITLE>
+                <article>
+                    <id>077</id>
+                    <title>Artikel 77</title>
+                    <subtitle>Recht auf Beschwerde bei einer Aufsichtsbehörde</subtitle>
+                </article>
+                <article>
+                    <id>078</id>
+                    <title>Artikel 78</title>
+                    <subtitle>Recht auf wirksamen gerichtlichen Rechtsbehelf gegen eine Aufsichtsbehörde</subtitle>
+                </article>
+                <article>
+                    <id>079</id>
+                    <title>Artikel 79</title>
+                    <subtitle>Recht auf wirksamen gerichtlichen Rechtsbehelf gegen Verantwortliche oder Auftragsverarbeiter</subtitle>
+                </article>
+                <?PAGE NO="81"?>
+                <article>
+                    <id>080</id>
+                    <title>Artikel 80</title>
+                    <subtitle>Vertretung von betroffenen Personen</subtitle>
+                </article>
+                <article>
+                    <id>081</id>
+                    <title>Artikel 81</title>
+                    <subtitle>Aussetzung des Verfahrens</subtitle>
+                </article>
+                <article>
+                    <id>082</id>
+                    <title>Artikel 82</title>
+                    <subtitle>Haftung und Recht auf Schadenersatz</subtitle>
+                </article>
+                <article>
+                    <id>083</id>
+                    <title>Artikel 83</title>
+                    <subtitle>Allgemeine Bedingungen für die Verhängung von Geldbußen</subtitle>
+                </article>
+                <article>
+                    <id>084</id>
+                    <title>Artikel 84</title>
+                    <subtitle>Sanktionen</subtitle>
+                </article>
+            </division>
+            <division>
+                <TITLE>
+                    <TI>
+                        <P>
+                            <HT TYPE="ITALIC">KAPITEL IX</HT>
+                        </P>
+                    </TI>
+                    <STI>
+                        <P>
+                            <HT TYPE="BOLD">
+                                <HT TYPE="ITALIC">Vorschriften für besondere Verarbeitungssituationen</HT>
+                            </HT>
+                        </P>
+                    </STI>
+                </TITLE>
+                <article>
+                    <id>085</id>
+                    <title>Artikel 85</title>
+                    <subtitle>Verarbeitung und Freiheit der Meinungsäußerung und Informationsfreiheit</subtitle>
+                </article>
+                <article>
+                    <id>086</id>
+                    <title>Artikel 86</title>
+                    <subtitle>Verarbeitung und Zugang der Öffentlichkeit zu amtlichen Dokumenten</subtitle>
+                </article>
+                <article>
+                    <id>087</id>
+                    <title>Artikel 87</title>
+                    <subtitle>Verarbeitung der nationalen Kennziffer</subtitle>
+                </article>
+                <article>
+                    <id>088</id>
+                    <title>Artikel 88</title>
+                    <subtitle>Datenverarbeitung im Beschäftigungskontext</subtitle>
+                </article>
+                <article>
+                    <id>089</id>
+                    <title>Artikel 89</title>
+                    <subtitle>Garantien und Ausnahmen in Bezug auf die Verarbeitung zu im öffentlichen Interesse liegenden Archivzwecken, zu wissenschaftlichen oder historischen Forschungszwecken und zu statistischen Zwecken</subtitle>
+                </article>
+                <article>
+                    <id>090</id>
+                    <title>Artikel 90</title>
+                    <subtitle>Geheimhaltungspflichten</subtitle>
+                </article>
+                <article>
+                    <id>091</id>
+                    <title>Artikel 91</title>
+                    <subtitle>Bestehende Datenschutzvorschriften von Kirchen und religiösen Vereinigungen oder Gemeinschaften</subtitle>
+                </article>
+            </division>
+            <division>
+                <TITLE>
+                    <TI>
+                        <P>
+                            <HT TYPE="ITALIC">KAPITEL X</HT>
+                        </P>
+                    </TI>
+                    <STI>
+                        <P>
+                            <HT TYPE="BOLD">
+                                <HT TYPE="ITALIC">Delegierte Rechtsakte und Durchführungsrechtsakte</HT>
+                            </HT>
+                        </P>
+                    </STI>
+                </TITLE>
+                <article>
+                    <id>092</id>
+                    <title>Artikel 92</title>
+                    <subtitle>Ausübung der Befugnisübertragung</subtitle>
+                </article>
+                <article>
+                    <id>093</id>
+                    <title>Artikel 93</title>
+                    <subtitle>Ausschussverfahren</subtitle>
+                </article>
+            </division>
+            <division>
+                <TITLE>
+                    <TI>
+                        <P>
+                            <HT TYPE="ITALIC">KAPITEL XI</HT>
+                        </P>
+                    </TI>
+                    <STI>
+                        <P>
+                            <HT TYPE="BOLD">
+                                <HT TYPE="ITALIC">Schlussbestimmungen</HT>
+                            </HT>
+                        </P>
+                    </STI>
+                </TITLE>
+                <article>
+                    <id>094</id>
+                    <title>Artikel 94</title>
+                    <subtitle>Aufhebung der Richtlinie 95/46/EG</subtitle>
+                </article>
+                <article>
+                    <id>095</id>
+                    <title>Artikel 95</title>
+                    <subtitle>Verhältnis zur Richtlinie 2002/58/EG</subtitle>
+                </article>
+                <?PAGE NO="87"?>
+                <article>
+                    <id>096</id>
+                    <title>Artikel 96</title>
+                    <subtitle>Verhältnis zu bereits geschlossenen Übereinkünften</subtitle>
+                </article>
+                <article>
+                    <id>097</id>
+                    <title>Artikel 97</title>
+                    <subtitle>Berichte der Kommission</subtitle>
+                </article>
+                <article>
+                    <id>098</id>
+                    <title>Artikel 98</title>
+                    <subtitle>Überprüfung anderer Rechtsakte der Union zum Datenschutz</subtitle>
+                </article>
+                <article>
+                    <id>099</id>
+                    <title>Artikel 99</title>
+                    <subtitle>Inkrafttreten und Anwendung</subtitle>
+                </article>
+            </division>
+        </ENACTING.TERMS>
+    </terms>
+</dsgvo>
