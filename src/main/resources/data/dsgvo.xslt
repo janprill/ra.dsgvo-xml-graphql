@@ -33,12 +33,24 @@
   </xsl:template>
 
   <xsl:template match="NP">
-    <np>
-      <id>
-        <xsl:value-of select="NO.P" />
-      </id>
-      <xsl:apply-templates select="TXT|P" />
-    </np>
+    <xsl:choose>
+      <xsl:when test="./parent::ITEM">
+        <li>
+          <id>
+            <xsl:value-of select="NO.P" />
+          </id>
+          <xsl:apply-templates select="TXT|P" />
+        </li>
+      </xsl:when>
+      <xsl:otherwise>
+        <np>
+          <id>
+            <xsl:value-of select="NO.P" />
+          </id>
+          <xsl:apply-templates select="TXT|P" />
+        </np>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <!-- in enacting terms -->
@@ -79,9 +91,20 @@
   </xsl:template>
 
   <xsl:template match="P">
-    <p>
-      <xsl:apply-templates />
-    </p>
+    <xsl:choose>
+      <xsl:when test="./parent::ITEM">
+        <li>
+          <txt>
+            <xsl:apply-templates />
+          </txt>
+        </li>
+      </xsl:when>
+      <xsl:otherwise>
+        <p>
+          <xsl:apply-templates />
+        </p>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template match="NOTE">
@@ -100,6 +123,12 @@
       <page><xsl:value-of select="@PAGE.FIRST"/></page>
       <text><xsl:value-of select="text()"/></text>
     </reference>
+  </xsl:template>
+
+  <xsl:template match="LIST">
+    <list>
+      <xsl:apply-templates select="ITEM/P|ITEM/NP"/>
+    </list>
   </xsl:template>
 
   <xsl:template match="DATE">
