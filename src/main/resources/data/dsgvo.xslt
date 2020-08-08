@@ -28,6 +28,34 @@
     <xsl:apply-templates select="//CONSID" />
   </xsl:template>
 
+  <xsl:template match="TITLE">
+     <xsl:apply-templates select="TI|STI" />
+  </xsl:template>
+
+  <xsl:template match="TI">
+    <title>
+      <xsl:apply-templates/>
+    </title>
+  </xsl:template>
+
+  <xsl:template match="STI">
+    <subtitle>
+      <xsl:apply-templates/>
+    </subtitle>
+  </xsl:template>
+
+  <xsl:template match="HT">
+    <highlight>
+      <type><xsl:value-of select="@TYPE"/></type>
+      <text><xsl:value-of select="text()"/></text>
+      <xsl:apply-templates/>
+    </highlight>
+  </xsl:template>
+
+  <xsl:template match="ENACTING.TERMS">
+    <xsl:apply-templates select="//DIVISION" />
+  </xsl:template>
+
   <xsl:template match="CONSID">
     <xsl:apply-templates select="NP"/>
   </xsl:template>
@@ -136,6 +164,20 @@
       <iso><xsl:value-of select="@ISO"/></iso>
       <datestr><xsl:value-of select="text()"/></datestr>
     </date>
+  </xsl:template>
+
+  <xsl:template match="QUOT.START">
+    <quote>
+      <start />
+      <id><xsl:value-of select="@ID"/></id>
+    </quote>
+  </xsl:template>
+
+  <xsl:template match="QUOT.END">
+    <quote>
+      <end />
+      <id><xsl:value-of select="@ID"/></id>
+    </quote>
   </xsl:template>
 
 </xsl:stylesheet>
