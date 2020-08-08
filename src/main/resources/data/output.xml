@@ -34,7 +34,13 @@
                         </date>
                          zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten und zum freien Datenverkehr (
                                 
-                        <REF.DOC.OJ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce" COLL="L" DATE.PUB="19951123" NO.OJ="281" PAGE.FIRST="31">ABl. L 281 vom 23.11.1995, S. 31</REF.DOC.OJ>
+                        <reference>
+                            <coll>L</coll>
+                            <pub>19951123</pub>
+                            <no>281</no>
+                            <page>31</page>
+                            <text>ABl. L 281 vom 23.11.1995, S. 31</text>
+                        </reference>
                         ).
         
                             
@@ -112,7 +118,13 @@
                         </date>
                          betreffend die Definition der Kleinstunternehmen sowie der kleinen und mittleren Unternehmen (C (2003) 1422) (
                                 
-                        <REF.DOC.OJ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce" COLL="L" DATE.PUB="20030520" NO.OJ="124" PAGE.FIRST="36">ABl. L 124 vom 20.5.2003, S. 36</REF.DOC.OJ>
+                        <reference>
+                            <coll>L</coll>
+                            <pub>20030520</pub>
+                            <no>124</no>
+                            <page>36</page>
+                            <text>ABl. L 124 vom 20.5.2003, S. 36</text>
+                        </reference>
                         ).
 
                             
@@ -151,7 +163,13 @@
                         </date>
                          zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten durch die Organe und Einrichtungen der Gemeinschaft und zum freien Datenverkehr (
                                 
-                        <REF.DOC.OJ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce" COLL="L" DATE.PUB="20010112" NO.OJ="008" PAGE.FIRST="1">ABl. L 8 vom 12.1.2001, S. 1</REF.DOC.OJ>
+                        <reference>
+                            <coll>L</coll>
+                            <pub>20010112</pub>
+                            <no>008</no>
+                            <page>1</page>
+                            <text>ABl. L 8 vom 12.1.2001, S. 1</text>
+                        </reference>
                         ).
 
                             
@@ -222,7 +240,13 @@
                         <QUOT.END xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce" CODE="201C" ID="QE0004" REF.START="QS0004"/>
                         ) (
                                 
-                        <REF.DOC.OJ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce" COLL="L" DATE.PUB="20000717" NO.OJ="178" PAGE.FIRST="1">ABl. L 178 vom 17.7.2000, S. 1</REF.DOC.OJ>
+                        <reference>
+                            <coll>L</coll>
+                            <pub>20000717</pub>
+                            <no>178</no>
+                            <page>1</page>
+                            <text>ABl. L 178 vom 17.7.2000, S. 1</text>
+                        </reference>
                         ).
 
                             
@@ -310,7 +334,13 @@
                         </date>
                          über die Ausübung der Patientenrechte in der grenzüberschreitenden Gesundheitsversorgung (
                                 
-                        <REF.DOC.OJ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce" COLL="L" DATE.PUB="20110404" NO.OJ="088" PAGE.FIRST="45">ABl. L 88 vom 4.4.2011, S. 45</REF.DOC.OJ>
+                        <reference>
+                            <coll>L</coll>
+                            <pub>20110404</pub>
+                            <no>088</no>
+                            <page>45</page>
+                            <text>ABl. L 88 vom 4.4.2011, S. 45</text>
+                        </reference>
                         ).
 
                             
@@ -391,7 +421,13 @@
                         </date>
                          über missbräuchliche Klauseln in Verbraucherverträgen (
                                 
-                        <REF.DOC.OJ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce" COLL="L" DATE.PUB="19930421" NO.OJ="095" PAGE.FIRST="29">ABl. L 95 vom 21.4.1993, S. 29</REF.DOC.OJ>
+                        <reference>
+                            <coll>L</coll>
+                            <pub>19930421</pub>
+                            <no>095</no>
+                            <page>29</page>
+                            <text>ABl. L 95 vom 21.4.1993, S. 29</text>
+                        </reference>
                         ).
 
                             
@@ -511,7 +547,13 @@
                         </date>
                          zu Gemeinschaftsstatistiken über öffentliche Gesundheit und über Gesundheitsschutz und Sicherheit am Arbeitsplatz (
                                 
-                        <REF.DOC.OJ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce" COLL="L" DATE.PUB="20081231" NO.OJ="354" PAGE.FIRST="70">ABl. L 354 vom 31.12.2008, S. 70</REF.DOC.OJ>
+                        <reference>
+                            <coll>L</coll>
+                            <pub>20081231</pub>
+                            <no>354</no>
+                            <page>70</page>
+                            <text>ABl. L 354 vom 31.12.2008, S. 70</text>
+                        </reference>
                         ).
 
                             
@@ -821,7 +863,13 @@
                         </date>
                          zur Festlegung der allgemeinen Regeln und Grundsätze, nach denen die Mitgliedstaaten die Wahrnehmung der Durchführungsbefugnisse durch die Kommission kontrollieren (
                                 
-                        <REF.DOC.OJ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce" COLL="L" DATE.PUB="20110228" NO.OJ="055" PAGE.FIRST="13">ABl. L 55 vom 28.2.2011, S. 13</REF.DOC.OJ>
+                        <reference>
+                            <coll>L</coll>
+                            <pub>20110228</pub>
+                            <no>055</no>
+                            <page>13</page>
+                            <text>ABl. L 55 vom 28.2.2011, S. 13</text>
+                        </reference>
                         ).
 
                             
@@ -1045,7 +1093,13 @@
                         </date>
                          über die gerichtliche Zuständigkeit und die Anerkennung und Vollstreckung von Entscheidungen in Zivil- und Handelssachen (
                                 
-                        <REF.DOC.OJ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce" COLL="L" DATE.PUB="20121220" NO.OJ="351" PAGE.FIRST="1">ABl. L 351 vom 20.12.2012, S. 1</REF.DOC.OJ>
+                        <reference>
+                            <coll>L</coll>
+                            <pub>20121220</pub>
+                            <no>351</no>
+                            <page>1</page>
+                            <text>ABl. L 351 vom 20.12.2012, S. 1</text>
+                        </reference>
                         ).
 
                             
@@ -1117,7 +1171,13 @@
                         </date>
                          über die Weiterverwendung von Informationen des öffentlichen Sektors (
                                 
-                        <REF.DOC.OJ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce" COLL="L" DATE.PUB="20031231" NO.OJ="345" PAGE.FIRST="90">ABl. L 345 vom 31.12.2003, S. 90</REF.DOC.OJ>
+                        <reference>
+                            <coll>L</coll>
+                            <pub>20031231</pub>
+                            <no>345</no>
+                            <page>90</page>
+                            <text>ABl. L 345 vom 31.12.2003, S. 90</text>
+                        </reference>
                         ).
 
                             
@@ -1180,7 +1240,13 @@
                         </date>
                          über klinische Prüfungen mit Humanarzneimitteln und zur Aufhebung der Richtlinie 2001/20/EG Text von Bedeutung für den EWR (
                                 
-                        <REF.DOC.OJ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce" COLL="L" DATE.PUB="20140527" NO.OJ="158" PAGE.FIRST="1">ABl. L 158 vom 27.5.2014, S. 1</REF.DOC.OJ>
+                        <reference>
+                            <coll>L</coll>
+                            <pub>20140527</pub>
+                            <no>158</no>
+                            <page>1</page>
+                            <text>ABl. L 158 vom 27.5.2014, S. 1</text>
+                        </reference>
                         ).
 
                             
@@ -1220,7 +1286,13 @@
                         </date>
                          über europäische Statistiken und zur Aufhebung der Verordnung (EG, Euratom) Nr. 1101/2008 des Europäischen Parlaments und des Rates über die Übermittlung von unter die Geheimhaltungspflicht fallenden Informationen an das Statistische Amt der Europäischen Gemeinschaften, der Verordnung (EG) Nr. 322/97 des Rates über die Gemeinschaftsstatistiken und des Beschlusses 89/382/EWG, Euratom des Rates zur Einsetzung eines Ausschusses für das Statistische Programm der Europäischen Gemeinschaften (
                                 
-                        <REF.DOC.OJ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce" COLL="L" DATE.PUB="20090331" NO.OJ="087" PAGE.FIRST="164">ABl. L 87 vom 31.3.2009, S. 164</REF.DOC.OJ>
+                        <reference>
+                            <coll>L</coll>
+                            <pub>20090331</pub>
+                            <no>087</no>
+                            <page>164</page>
+                            <text>ABl. L 87 vom 31.3.2009, S. 164</text>
+                        </reference>
                         ).
 
                             
@@ -1281,7 +1353,13 @@
                     <id>E0017</id>
                     <type>FOOTNOTE</type>
                     <p>
-                        <REF.DOC.OJ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce" COLL="C" DATE.PUB="20120630" NO.OJ="192" PAGE.FIRST="7">ABl. C 192 vom 30.6.2012, S. 7</REF.DOC.OJ>
+                        <reference>
+                            <coll>C</coll>
+                            <pub>20120630</pub>
+                            <no>192</no>
+                            <page>7</page>
+                            <text>ABl. C 192 vom 30.6.2012, S. 7</text>
+                        </reference>
                         .
 
                             
@@ -1308,7 +1386,13 @@
                         </date>
                          über die Verarbeitung personenbezogener Daten und den Schutz der Privatsphäre in der elektronischen Kommunikation (Datenschutzrichtlinie für elektronische Kommunikation) (
                                 
-                        <REF.DOC.OJ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce" COLL="L" DATE.PUB="20020731" NO.OJ="201" PAGE.FIRST="37">ABl. L 201 vom 31.7.2002, S. 37</REF.DOC.OJ>
+                        <reference>
+                            <coll>L</coll>
+                            <pub>20020731</pub>
+                            <no>201</no>
+                            <page>37</page>
+                            <text>ABl. L 201 vom 31.7.2002, S. 37</text>
+                        </reference>
                         ).
 
                             
@@ -3970,7 +4054,13 @@ Recht auf Vergessenwerden
                                                         </date>
                                                          über die Vorschriften für die Akkreditierung und Marktüberwachung im Zusammenhang mit der Vermarktung von Produkten und zur Aufhebung der Verordnung (EWG) Nr. 339/93 des Rates (
                                                     
-                                                        <REF.DOC.OJ COLL="L" DATE.PUB="20080813" NO.OJ="218" PAGE.FIRST="30">ABl. L 218 vom 13.8.2008, S. 30</REF.DOC.OJ>
+                                                        <reference>
+                                                            <coll>L</coll>
+                                                            <pub>20080813</pub>
+                                                            <no>218</no>
+                                                            <page>30</page>
+                                                            <text>ABl. L 218 vom 13.8.2008, S. 30</text>
+                                                        </reference>
                                                         ).
 
                                                 
@@ -5992,7 +6082,13 @@ Recht auf Vergessenwerden
                                         </date>
                                          über den Zugang der Öffentlichkeit zu Dokumenten des Europäischen Parlaments, des Rates und der Kommission (
                                     
-                                        <REF.DOC.OJ COLL="L" DATE.PUB="20010531" NO.OJ="145" PAGE.FIRST="43">ABl. L 145 vom 31.5.2001, S. 43</REF.DOC.OJ>
+                                        <reference>
+                                            <coll>L</coll>
+                                            <pub>20010531</pub>
+                                            <no>145</no>
+                                            <page>43</page>
+                                            <text>ABl. L 145 vom 31.5.2001, S. 43</text>
+                                        </reference>
                                         ).
 
                                 

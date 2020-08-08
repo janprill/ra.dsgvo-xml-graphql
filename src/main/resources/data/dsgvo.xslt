@@ -86,15 +86,25 @@
 
   <xsl:template match="NOTE">
     <note>
-      <id><xsl:value-of select="./@NOTE.ID"/></id>
-      <type><xsl:value-of select="./@TYPE"/></type>
+      <id><xsl:value-of select="@NOTE.ID"/></id>
+      <type><xsl:value-of select="@TYPE"/></type>
       <xsl:apply-templates />
     </note>
   </xsl:template>
 
+  <xsl:template match="REF.DOC.OJ">
+    <reference>
+      <coll><xsl:value-of select="@COLL"/></coll>
+      <pub><xsl:value-of select="@DATE.PUB"/></pub>
+      <no><xsl:value-of select="@NO.OJ"/></no>
+      <page><xsl:value-of select="@PAGE.FIRST"/></page>
+      <text><xsl:value-of select="text()"/></text>
+    </reference>
+  </xsl:template>
+
   <xsl:template match="DATE">
     <date>
-      <iso><xsl:value-of select="./@ISO"/></iso>
+      <iso><xsl:value-of select="@ISO"/></iso>
       <datestr><xsl:value-of select="text()"/></datestr>
     </date>
   </xsl:template>
