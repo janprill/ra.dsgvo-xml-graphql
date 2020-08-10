@@ -24,16 +24,15 @@ import javax.xml.namespace.QName;
 @XmlRegistry
 public class ObjectFactory {
 
-    private final static QName _ACT_QNAME = new QName("", "ACT");
-    private final static QName _PTypeDATE_QNAME = new QName("", "DATE");
-    private final static QName _PTypeQUOTEND_QNAME = new QName("", "QUOT.END");
-    private final static QName _PTypeREFDOCOJ_QNAME = new QName("", "REF.DOC.OJ");
-    private final static QName _PTypeQUOTSTART_QNAME = new QName("", "QUOT.START");
-    private final static QName _PTypeHT_QNAME = new QName("", "HT");
-    private final static QName _PTypeLIST_QNAME = new QName("", "LIST");
-    private final static QName _PTypeFT_QNAME = new QName("", "FT");
-    private final static QName _GRVISATypeVISANOTE_QNAME = new QName("", "NOTE");
-    private final static QName _ALINEATypeP_QNAME = new QName("", "P");
+    private final static QName _Dsgvo_QNAME = new QName("", "dsgvo");
+    private final static QName _PTypeDate_QNAME = new QName("", "date");
+    private final static QName _PTypeReference_QNAME = new QName("", "reference");
+    private final static QName _PTypeHighlight_QNAME = new QName("", "highlight");
+    private final static QName _PTypeQuote_QNAME = new QName("", "quote");
+    private final static QName _PTypeFt_QNAME = new QName("", "ft");
+    private final static QName _LiTypeTxtNote_QNAME = new QName("", "note");
+    private final static QName _AlineaTypeP_QNAME = new QName("", "p");
+    private final static QName _AlineaTypeList_QNAME = new QName("", "list");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: com.remoteanwalt.domain.jaxb
@@ -43,195 +42,131 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link NPType }
+     * Create an instance of {@link AlineaType }
      * 
      */
-    public NPType createNPType() {
-        return new NPType();
+    public AlineaType createAlineaType() {
+        return new AlineaType();
     }
 
     /**
-     * Create an instance of {@link ARTICLEType }
+     * Create an instance of {@link ParagraphType }
      * 
      */
-    public ARTICLEType createARTICLEType() {
-        return new ARTICLEType();
+    public ParagraphType createParagraphType() {
+        return new ParagraphType();
     }
 
     /**
-     * Create an instance of {@link GRVISAType }
+     * Create an instance of {@link ParagraphType.Alinea }
      * 
      */
-    public GRVISAType createGRVISAType() {
-        return new GRVISAType();
+    public ParagraphType.Alinea createParagraphTypeAlinea() {
+        return new ParagraphType.Alinea();
     }
 
     /**
-     * Create an instance of {@link ALINEAType }
+     * Create an instance of {@link LiType }
      * 
      */
-    public ALINEAType createALINEAType() {
-        return new ALINEAType();
+    public LiType createLiType() {
+        return new LiType();
     }
 
     /**
-     * Create an instance of {@link PARAGType }
+     * Create an instance of {@link DsgvoType }
      * 
      */
-    public PARAGType createPARAGType() {
-        return new PARAGType();
+    public DsgvoType createDsgvoType() {
+        return new DsgvoType();
     }
 
     /**
-     * Create an instance of {@link PARAGType.ALINEA }
+     * Create an instance of {@link TitleType }
      * 
      */
-    public PARAGType.ALINEA createPARAGTypeALINEA() {
-        return new PARAGType.ALINEA();
+    public TitleType createTitleType() {
+        return new TitleType();
     }
 
     /**
-     * Create an instance of {@link ACTType }
+     * Create an instance of {@link TxtType }
      * 
      */
-    public ACTType createACTType() {
-        return new ACTType();
+    public TxtType createTxtType() {
+        return new TxtType();
     }
 
     /**
-     * Create an instance of {@link HTType }
+     * Create an instance of {@link ReferenceType }
      * 
      */
-    public HTType createHTType() {
-        return new HTType();
+    public ReferenceType createReferenceType() {
+        return new ReferenceType();
     }
 
     /**
-     * Create an instance of {@link NODOCType }
+     * Create an instance of {@link QuoteType }
      * 
      */
-    public NODOCType createNODOCType() {
-        return new NODOCType();
+    public QuoteType createQuoteType() {
+        return new QuoteType();
     }
 
     /**
-     * Create an instance of {@link DIVISIONType }
+     * Create an instance of {@link ListType }
      * 
      */
-    public DIVISIONType createDIVISIONType() {
-        return new DIVISIONType();
+    public ListType createListType() {
+        return new ListType();
     }
 
     /**
-     * Create an instance of {@link TITLEType }
+     * Create an instance of {@link FtType }
      * 
      */
-    public TITLEType createTITLEType() {
-        return new TITLEType();
+    public FtType createFtType() {
+        return new FtType();
     }
 
     /**
-     * Create an instance of {@link ITEMType }
+     * Create an instance of {@link SubtitleType }
      * 
      */
-    public ITEMType createITEMType() {
-        return new ITEMType();
+    public SubtitleType createSubtitleType() {
+        return new SubtitleType();
     }
 
     /**
-     * Create an instance of {@link STIType }
+     * Create an instance of {@link NoteType }
      * 
      */
-    public STIType createSTIType() {
-        return new STIType();
+    public NoteType createNoteType() {
+        return new NoteType();
     }
 
     /**
-     * Create an instance of {@link TIType }
+     * Create an instance of {@link DateType }
      * 
      */
-    public TIType createTIType() {
-        return new TIType();
+    public DateType createDateType() {
+        return new DateType();
     }
 
     /**
-     * Create an instance of {@link QUOTSTARTType }
+     * Create an instance of {@link DivisionType }
      * 
      */
-    public QUOTSTARTType createQUOTSTARTType() {
-        return new QUOTSTARTType();
+    public DivisionType createDivisionType() {
+        return new DivisionType();
     }
 
     /**
-     * Create an instance of {@link LISTType }
+     * Create an instance of {@link ArticleType }
      * 
      */
-    public LISTType createLISTType() {
-        return new LISTType();
-    }
-
-    /**
-     * Create an instance of {@link FTType }
-     * 
-     */
-    public FTType createFTType() {
-        return new FTType();
-    }
-
-    /**
-     * Create an instance of {@link STIARTType }
-     * 
-     */
-    public STIARTType createSTIARTType() {
-        return new STIARTType();
-    }
-
-    /**
-     * Create an instance of {@link TXTType }
-     * 
-     */
-    public TXTType createTXTType() {
-        return new TXTType();
-    }
-
-    /**
-     * Create an instance of {@link DATEType }
-     * 
-     */
-    public DATEType createDATEType() {
-        return new DATEType();
-    }
-
-    /**
-     * Create an instance of {@link REFDOCOJType }
-     * 
-     */
-    public REFDOCOJType createREFDOCOJType() {
-        return new REFDOCOJType();
-    }
-
-    /**
-     * Create an instance of {@link PLDATEType }
-     * 
-     */
-    public PLDATEType createPLDATEType() {
-        return new PLDATEType();
-    }
-
-    /**
-     * Create an instance of {@link FINALType }
-     * 
-     */
-    public FINALType createFINALType() {
-        return new FINALType();
-    }
-
-    /**
-     * Create an instance of {@link DOCUMENTREFType }
-     * 
-     */
-    public DOCUMENTREFType createDOCUMENTREFType() {
-        return new DOCUMENTREFType();
+    public ArticleType createArticleType() {
+        return new ArticleType();
     }
 
     /**
@@ -243,618 +178,383 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link CONSIDType }
+     * Create an instance of {@link NpType }
      * 
      */
-    public CONSIDType createCONSIDType() {
-        return new CONSIDType();
+    public NpType createNpType() {
+        return new NpType();
     }
 
     /**
-     * Create an instance of {@link GRCONSIDType }
+     * Create an instance of {@link PreambleType }
      * 
      */
-    public GRCONSIDType createGRCONSIDType() {
-        return new GRCONSIDType();
+    public PreambleType createPreambleType() {
+        return new PreambleType();
     }
 
     /**
-     * Create an instance of {@link PREAMBLEType }
+     * Create an instance of {@link TermsType }
      * 
      */
-    public PREAMBLEType createPREAMBLEType() {
-        return new PREAMBLEType();
+    public TermsType createTermsType() {
+        return new TermsType();
     }
 
     /**
-     * Create an instance of {@link VISAType }
+     * Create an instance of {@link HighlightType }
      * 
      */
-    public VISAType createVISAType() {
-        return new VISAType();
+    public HighlightType createHighlightType() {
+        return new HighlightType();
     }
 
     /**
-     * Create an instance of {@link SIGNATUREType }
+     * Create an instance of {@link AlineaType.P }
      * 
      */
-    public SIGNATUREType createSIGNATUREType() {
-        return new SIGNATUREType();
+    public AlineaType.P createAlineaTypeP() {
+        return new AlineaType.P();
     }
 
     /**
-     * Create an instance of {@link QUOTENDType }
+     * Create an instance of {@link ParagraphType.Alinea.P }
      * 
      */
-    public QUOTENDType createQUOTENDType() {
-        return new QUOTENDType();
+    public ParagraphType.Alinea.P createParagraphTypeAlineaP() {
+        return new ParagraphType.Alinea.P();
     }
 
     /**
-     * Create an instance of {@link BIBINSTANCEType }
+     * Create an instance of {@link LiType.Txt }
      * 
      */
-    public BIBINSTANCEType createBIBINSTANCEType() {
-        return new BIBINSTANCEType();
+    public LiType.Txt createLiTypeTxt() {
+        return new LiType.Txt();
     }
 
     /**
-     * Create an instance of {@link ENACTINGTERMSType }
+     * Create an instance of {@link JAXBElement }{@code <}{@link DsgvoType }{@code >}}
      * 
      */
-    public ENACTINGTERMSType createENACTINGTERMSType() {
-        return new ENACTINGTERMSType();
+    @XmlElementDecl(namespace = "", name = "dsgvo")
+    public JAXBElement<DsgvoType> createDsgvo(DsgvoType value) {
+        return new JAXBElement<DsgvoType>(_Dsgvo_QNAME, DsgvoType.class, null, value);
     }
 
     /**
-     * Create an instance of {@link SIGNATORYType }
+     * Create an instance of {@link JAXBElement }{@code <}{@link DateType }{@code >}}
      * 
      */
-    public SIGNATORYType createSIGNATORYType() {
-        return new SIGNATORYType();
+    @XmlElementDecl(namespace = "", name = "date", scope = PType.class)
+    public JAXBElement<DateType> createPTypeDate(DateType value) {
+        return new JAXBElement<DateType>(_PTypeDate_QNAME, DateType.class, PType.class, value);
     }
 
     /**
-     * Create an instance of {@link NOTEType }
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceType }{@code >}}
      * 
      */
-    public NOTEType createNOTEType() {
-        return new NOTEType();
+    @XmlElementDecl(namespace = "", name = "reference", scope = PType.class)
+    public JAXBElement<ReferenceType> createPTypeReference(ReferenceType value) {
+        return new JAXBElement<ReferenceType>(_PTypeReference_QNAME, ReferenceType.class, PType.class, value);
     }
 
     /**
-     * Create an instance of {@link NPType.P }
+     * Create an instance of {@link JAXBElement }{@code <}{@link HighlightType }{@code >}}
      * 
      */
-    public NPType.P createNPTypeP() {
-        return new NPType.P();
+    @XmlElementDecl(namespace = "", name = "highlight", scope = PType.class)
+    public JAXBElement<HighlightType> createPTypeHighlight(HighlightType value) {
+        return new JAXBElement<HighlightType>(_PTypeHighlight_QNAME, HighlightType.class, PType.class, value);
     }
 
     /**
-     * Create an instance of {@link ARTICLEType.STIART }
+     * Create an instance of {@link JAXBElement }{@code <}{@link QuoteType }{@code >}}
      * 
      */
-    public ARTICLEType.STIART createARTICLETypeSTIART() {
-        return new ARTICLEType.STIART();
+    @XmlElementDecl(namespace = "", name = "quote", scope = PType.class)
+    public JAXBElement<QuoteType> createPTypeQuote(QuoteType value) {
+        return new JAXBElement<QuoteType>(_PTypeQuote_QNAME, QuoteType.class, PType.class, value);
     }
 
     /**
-     * Create an instance of {@link GRVISAType.VISA }
+     * Create an instance of {@link JAXBElement }{@code <}{@link FtType }{@code >}}
      * 
      */
-    public GRVISAType.VISA createGRVISATypeVISA() {
-        return new GRVISAType.VISA();
+    @XmlElementDecl(namespace = "", name = "ft", scope = PType.class)
+    public JAXBElement<FtType> createPTypeFt(FtType value) {
+        return new JAXBElement<FtType>(_PTypeFt_QNAME, FtType.class, PType.class, value);
     }
 
     /**
-     * Create an instance of {@link ALINEAType.P }
+     * Create an instance of {@link JAXBElement }{@code <}{@link DateType }{@code >}}
      * 
      */
-    public ALINEAType.P createALINEATypeP() {
-        return new ALINEAType.P();
+    @XmlElementDecl(namespace = "", name = "date", scope = LiType.Txt.class)
+    public JAXBElement<DateType> createLiTypeTxtDate(DateType value) {
+        return new JAXBElement<DateType>(_PTypeDate_QNAME, DateType.class, LiType.Txt.class, value);
     }
 
     /**
-     * Create an instance of {@link PARAGType.ALINEA.P }
+     * Create an instance of {@link JAXBElement }{@code <}{@link NoteType }{@code >}}
      * 
      */
-    public PARAGType.ALINEA.P createPARAGTypeALINEAP() {
-        return new PARAGType.ALINEA.P();
+    @XmlElementDecl(namespace = "", name = "note", scope = LiType.Txt.class)
+    public JAXBElement<NoteType> createLiTypeTxtNote(NoteType value) {
+        return new JAXBElement<NoteType>(_LiTypeTxtNote_QNAME, NoteType.class, LiType.Txt.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ACTType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link QuoteType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "ACT")
-    public JAXBElement<ACTType> createACT(ACTType value) {
-        return new JAXBElement<ACTType>(_ACT_QNAME, ACTType.class, null, value);
+    @XmlElementDecl(namespace = "", name = "quote", scope = LiType.Txt.class)
+    public JAXBElement<QuoteType> createLiTypeTxtQuote(QuoteType value) {
+        return new JAXBElement<QuoteType>(_PTypeQuote_QNAME, QuoteType.class, LiType.Txt.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DATEType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link DateType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "DATE", scope = PType.class)
-    public JAXBElement<DATEType> createPTypeDATE(DATEType value) {
-        return new JAXBElement<DATEType>(_PTypeDATE_QNAME, DATEType.class, PType.class, value);
+    @XmlElementDecl(namespace = "", name = "date", scope = AlineaType.P.class)
+    public JAXBElement<DateType> createAlineaTypePDate(DateType value) {
+        return new JAXBElement<DateType>(_PTypeDate_QNAME, DateType.class, AlineaType.P.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link QUOTENDType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "QUOT.END", scope = PType.class)
-    public JAXBElement<QUOTENDType> createPTypeQUOTEND(QUOTENDType value) {
-        return new JAXBElement<QUOTENDType>(_PTypeQUOTEND_QNAME, QUOTENDType.class, PType.class, value);
+    @XmlElementDecl(namespace = "", name = "reference", scope = AlineaType.P.class)
+    public JAXBElement<ReferenceType> createAlineaTypePReference(ReferenceType value) {
+        return new JAXBElement<ReferenceType>(_PTypeReference_QNAME, ReferenceType.class, AlineaType.P.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link REFDOCOJType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link HighlightType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "REF.DOC.OJ", scope = PType.class)
-    public JAXBElement<REFDOCOJType> createPTypeREFDOCOJ(REFDOCOJType value) {
-        return new JAXBElement<REFDOCOJType>(_PTypeREFDOCOJ_QNAME, REFDOCOJType.class, PType.class, value);
+    @XmlElementDecl(namespace = "", name = "highlight", scope = AlineaType.P.class)
+    public JAXBElement<HighlightType> createAlineaTypePHighlight(HighlightType value) {
+        return new JAXBElement<HighlightType>(_PTypeHighlight_QNAME, HighlightType.class, AlineaType.P.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link QUOTSTARTType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link QuoteType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "QUOT.START", scope = PType.class)
-    public JAXBElement<QUOTSTARTType> createPTypeQUOTSTART(QUOTSTARTType value) {
-        return new JAXBElement<QUOTSTARTType>(_PTypeQUOTSTART_QNAME, QUOTSTARTType.class, PType.class, value);
+    @XmlElementDecl(namespace = "", name = "quote", scope = AlineaType.P.class)
+    public JAXBElement<QuoteType> createAlineaTypePQuote(QuoteType value) {
+        return new JAXBElement<QuoteType>(_PTypeQuote_QNAME, QuoteType.class, AlineaType.P.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link HTType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link FtType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "HT", scope = PType.class)
-    public JAXBElement<HTType> createPTypeHT(HTType value) {
-        return new JAXBElement<HTType>(_PTypeHT_QNAME, HTType.class, PType.class, value);
+    @XmlElementDecl(namespace = "", name = "ft", scope = AlineaType.P.class)
+    public JAXBElement<FtType> createAlineaTypePFt(FtType value) {
+        return new JAXBElement<FtType>(_PTypeFt_QNAME, FtType.class, AlineaType.P.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link LISTType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link AlineaType.P }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "LIST", scope = PType.class)
-    public JAXBElement<LISTType> createPTypeLIST(LISTType value) {
-        return new JAXBElement<LISTType>(_PTypeLIST_QNAME, LISTType.class, PType.class, value);
+    @XmlElementDecl(namespace = "", name = "p", scope = AlineaType.class)
+    public JAXBElement<AlineaType.P> createAlineaTypeP(AlineaType.P value) {
+        return new JAXBElement<AlineaType.P>(_AlineaTypeP_QNAME, AlineaType.P.class, AlineaType.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link FTType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link DateType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "FT", scope = PType.class)
-    public JAXBElement<FTType> createPTypeFT(FTType value) {
-        return new JAXBElement<FTType>(_PTypeFT_QNAME, FTType.class, PType.class, value);
+    @XmlElementDecl(namespace = "", name = "date", scope = AlineaType.class)
+    public JAXBElement<DateType> createAlineaTypeDate(DateType value) {
+        return new JAXBElement<DateType>(_PTypeDate_QNAME, DateType.class, AlineaType.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link NOTEType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link HighlightType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "NOTE", scope = GRVISAType.VISA.class)
-    public JAXBElement<NOTEType> createGRVISATypeVISANOTE(NOTEType value) {
-        return new JAXBElement<NOTEType>(_GRVISATypeVISANOTE_QNAME, NOTEType.class, GRVISAType.VISA.class, value);
+    @XmlElementDecl(namespace = "", name = "highlight", scope = AlineaType.class)
+    public JAXBElement<HighlightType> createAlineaTypeHighlight(HighlightType value) {
+        return new JAXBElement<HighlightType>(_PTypeHighlight_QNAME, HighlightType.class, AlineaType.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link NOTEType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link NoteType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "NOTE", scope = VISAType.class)
-    public JAXBElement<NOTEType> createVISATypeNOTE(NOTEType value) {
-        return new JAXBElement<NOTEType>(_GRVISATypeVISANOTE_QNAME, NOTEType.class, VISAType.class, value);
+    @XmlElementDecl(namespace = "", name = "note", scope = AlineaType.class)
+    public JAXBElement<NoteType> createAlineaTypeNote(NoteType value) {
+        return new JAXBElement<NoteType>(_LiTypeTxtNote_QNAME, NoteType.class, AlineaType.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ALINEAType.P }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link QuoteType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "P", scope = ALINEAType.class)
-    public JAXBElement<ALINEAType.P> createALINEATypeP(ALINEAType.P value) {
-        return new JAXBElement<ALINEAType.P>(_ALINEATypeP_QNAME, ALINEAType.P.class, ALINEAType.class, value);
+    @XmlElementDecl(namespace = "", name = "quote", scope = AlineaType.class)
+    public JAXBElement<QuoteType> createAlineaTypeQuote(QuoteType value) {
+        return new JAXBElement<QuoteType>(_PTypeQuote_QNAME, QuoteType.class, AlineaType.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DATEType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ListType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "DATE", scope = ALINEAType.class)
-    public JAXBElement<DATEType> createALINEATypeDATE(DATEType value) {
-        return new JAXBElement<DATEType>(_PTypeDATE_QNAME, DATEType.class, ALINEAType.class, value);
+    @XmlElementDecl(namespace = "", name = "list", scope = AlineaType.class)
+    public JAXBElement<ListType> createAlineaTypeList(ListType value) {
+        return new JAXBElement<ListType>(_AlineaTypeList_QNAME, ListType.class, AlineaType.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link QUOTENDType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link FtType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "QUOT.END", scope = ALINEAType.class)
-    public JAXBElement<QUOTENDType> createALINEATypeQUOTEND(QUOTENDType value) {
-        return new JAXBElement<QUOTENDType>(_PTypeQUOTEND_QNAME, QUOTENDType.class, ALINEAType.class, value);
+    @XmlElementDecl(namespace = "", name = "ft", scope = AlineaType.class)
+    public JAXBElement<FtType> createAlineaTypeFt(FtType value) {
+        return new JAXBElement<FtType>(_PTypeFt_QNAME, FtType.class, AlineaType.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link NOTEType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ParagraphType.Alinea.P }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "NOTE", scope = ALINEAType.class)
-    public JAXBElement<NOTEType> createALINEATypeNOTE(NOTEType value) {
-        return new JAXBElement<NOTEType>(_GRVISATypeVISANOTE_QNAME, NOTEType.class, ALINEAType.class, value);
+    @XmlElementDecl(namespace = "", name = "p", scope = ParagraphType.Alinea.class)
+    public JAXBElement<ParagraphType.Alinea.P> createParagraphTypeAlineaP(ParagraphType.Alinea.P value) {
+        return new JAXBElement<ParagraphType.Alinea.P>(_AlineaTypeP_QNAME, ParagraphType.Alinea.P.class, ParagraphType.Alinea.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link QUOTSTARTType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link DateType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "QUOT.START", scope = ALINEAType.class)
-    public JAXBElement<QUOTSTARTType> createALINEATypeQUOTSTART(QUOTSTARTType value) {
-        return new JAXBElement<QUOTSTARTType>(_PTypeQUOTSTART_QNAME, QUOTSTARTType.class, ALINEAType.class, value);
+    @XmlElementDecl(namespace = "", name = "date", scope = ParagraphType.Alinea.class)
+    public JAXBElement<DateType> createParagraphTypeAlineaDate(DateType value) {
+        return new JAXBElement<DateType>(_PTypeDate_QNAME, DateType.class, ParagraphType.Alinea.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link HTType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link HighlightType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "HT", scope = ALINEAType.class)
-    public JAXBElement<HTType> createALINEATypeHT(HTType value) {
-        return new JAXBElement<HTType>(_PTypeHT_QNAME, HTType.class, ALINEAType.class, value);
+    @XmlElementDecl(namespace = "", name = "highlight", scope = ParagraphType.Alinea.class)
+    public JAXBElement<HighlightType> createParagraphTypeAlineaHighlight(HighlightType value) {
+        return new JAXBElement<HighlightType>(_PTypeHighlight_QNAME, HighlightType.class, ParagraphType.Alinea.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link LISTType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link NoteType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "LIST", scope = ALINEAType.class)
-    public JAXBElement<LISTType> createALINEATypeLIST(LISTType value) {
-        return new JAXBElement<LISTType>(_PTypeLIST_QNAME, LISTType.class, ALINEAType.class, value);
+    @XmlElementDecl(namespace = "", name = "note", scope = ParagraphType.Alinea.class)
+    public JAXBElement<NoteType> createParagraphTypeAlineaNote(NoteType value) {
+        return new JAXBElement<NoteType>(_LiTypeTxtNote_QNAME, NoteType.class, ParagraphType.Alinea.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link FTType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link QuoteType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "FT", scope = ALINEAType.class)
-    public JAXBElement<FTType> createALINEATypeFT(FTType value) {
-        return new JAXBElement<FTType>(_PTypeFT_QNAME, FTType.class, ALINEAType.class, value);
+    @XmlElementDecl(namespace = "", name = "quote", scope = ParagraphType.Alinea.class)
+    public JAXBElement<QuoteType> createParagraphTypeAlineaQuote(QuoteType value) {
+        return new JAXBElement<QuoteType>(_PTypeQuote_QNAME, QuoteType.class, ParagraphType.Alinea.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link HTType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ListType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "HT", scope = HTType.class)
-    public JAXBElement<HTType> createHTTypeHT(HTType value) {
-        return new JAXBElement<HTType>(_PTypeHT_QNAME, HTType.class, HTType.class, value);
+    @XmlElementDecl(namespace = "", name = "list", scope = ParagraphType.Alinea.class)
+    public JAXBElement<ListType> createParagraphTypeAlineaList(ListType value) {
+        return new JAXBElement<ListType>(_AlineaTypeList_QNAME, ListType.class, ParagraphType.Alinea.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link QUOTENDType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link FtType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "QUOT.END", scope = STIARTType.class)
-    public JAXBElement<QUOTENDType> createSTIARTTypeQUOTEND(QUOTENDType value) {
-        return new JAXBElement<QUOTENDType>(_PTypeQUOTEND_QNAME, QUOTENDType.class, STIARTType.class, value);
+    @XmlElementDecl(namespace = "", name = "ft", scope = ParagraphType.Alinea.class)
+    public JAXBElement<FtType> createParagraphTypeAlineaFt(FtType value) {
+        return new JAXBElement<FtType>(_PTypeFt_QNAME, FtType.class, ParagraphType.Alinea.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link QUOTSTARTType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link DateType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "QUOT.START", scope = STIARTType.class)
-    public JAXBElement<QUOTSTARTType> createSTIARTTypeQUOTSTART(QUOTSTARTType value) {
-        return new JAXBElement<QUOTSTARTType>(_PTypeQUOTSTART_QNAME, QUOTSTARTType.class, STIARTType.class, value);
+    @XmlElementDecl(namespace = "", name = "date", scope = TxtType.class)
+    public JAXBElement<DateType> createTxtTypeDate(DateType value) {
+        return new JAXBElement<DateType>(_PTypeDate_QNAME, DateType.class, TxtType.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link PARAGType.ALINEA.P }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link NoteType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "P", scope = PARAGType.ALINEA.class)
-    public JAXBElement<PARAGType.ALINEA.P> createPARAGTypeALINEAP(PARAGType.ALINEA.P value) {
-        return new JAXBElement<PARAGType.ALINEA.P>(_ALINEATypeP_QNAME, PARAGType.ALINEA.P.class, PARAGType.ALINEA.class, value);
+    @XmlElementDecl(namespace = "", name = "note", scope = TxtType.class)
+    public JAXBElement<NoteType> createTxtTypeNote(NoteType value) {
+        return new JAXBElement<NoteType>(_LiTypeTxtNote_QNAME, NoteType.class, TxtType.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DATEType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link QuoteType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "DATE", scope = PARAGType.ALINEA.class)
-    public JAXBElement<DATEType> createPARAGTypeALINEADATE(DATEType value) {
-        return new JAXBElement<DATEType>(_PTypeDATE_QNAME, DATEType.class, PARAGType.ALINEA.class, value);
+    @XmlElementDecl(namespace = "", name = "quote", scope = TxtType.class)
+    public JAXBElement<QuoteType> createTxtTypeQuote(QuoteType value) {
+        return new JAXBElement<QuoteType>(_PTypeQuote_QNAME, QuoteType.class, TxtType.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link QUOTENDType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link DateType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "QUOT.END", scope = PARAGType.ALINEA.class)
-    public JAXBElement<QUOTENDType> createPARAGTypeALINEAQUOTEND(QUOTENDType value) {
-        return new JAXBElement<QUOTENDType>(_PTypeQUOTEND_QNAME, QUOTENDType.class, PARAGType.ALINEA.class, value);
+    @XmlElementDecl(namespace = "", name = "date", scope = ParagraphType.Alinea.P.class)
+    public JAXBElement<DateType> createParagraphTypeAlineaPDate(DateType value) {
+        return new JAXBElement<DateType>(_PTypeDate_QNAME, DateType.class, ParagraphType.Alinea.P.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link NOTEType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link ReferenceType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "NOTE", scope = PARAGType.ALINEA.class)
-    public JAXBElement<NOTEType> createPARAGTypeALINEANOTE(NOTEType value) {
-        return new JAXBElement<NOTEType>(_GRVISATypeVISANOTE_QNAME, NOTEType.class, PARAGType.ALINEA.class, value);
+    @XmlElementDecl(namespace = "", name = "reference", scope = ParagraphType.Alinea.P.class)
+    public JAXBElement<ReferenceType> createParagraphTypeAlineaPReference(ReferenceType value) {
+        return new JAXBElement<ReferenceType>(_PTypeReference_QNAME, ReferenceType.class, ParagraphType.Alinea.P.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link QUOTSTARTType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link HighlightType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "QUOT.START", scope = PARAGType.ALINEA.class)
-    public JAXBElement<QUOTSTARTType> createPARAGTypeALINEAQUOTSTART(QUOTSTARTType value) {
-        return new JAXBElement<QUOTSTARTType>(_PTypeQUOTSTART_QNAME, QUOTSTARTType.class, PARAGType.ALINEA.class, value);
+    @XmlElementDecl(namespace = "", name = "highlight", scope = ParagraphType.Alinea.P.class)
+    public JAXBElement<HighlightType> createParagraphTypeAlineaPHighlight(HighlightType value) {
+        return new JAXBElement<HighlightType>(_PTypeHighlight_QNAME, HighlightType.class, ParagraphType.Alinea.P.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link HTType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link QuoteType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "HT", scope = PARAGType.ALINEA.class)
-    public JAXBElement<HTType> createPARAGTypeALINEAHT(HTType value) {
-        return new JAXBElement<HTType>(_PTypeHT_QNAME, HTType.class, PARAGType.ALINEA.class, value);
+    @XmlElementDecl(namespace = "", name = "quote", scope = ParagraphType.Alinea.P.class)
+    public JAXBElement<QuoteType> createParagraphTypeAlineaPQuote(QuoteType value) {
+        return new JAXBElement<QuoteType>(_PTypeQuote_QNAME, QuoteType.class, ParagraphType.Alinea.P.class, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link LISTType }{@code >}}
+     * Create an instance of {@link JAXBElement }{@code <}{@link FtType }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "", name = "LIST", scope = PARAGType.ALINEA.class)
-    public JAXBElement<LISTType> createPARAGTypeALINEALIST(LISTType value) {
-        return new JAXBElement<LISTType>(_PTypeLIST_QNAME, LISTType.class, PARAGType.ALINEA.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link FTType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "FT", scope = PARAGType.ALINEA.class)
-    public JAXBElement<FTType> createPARAGTypeALINEAFT(FTType value) {
-        return new JAXBElement<FTType>(_PTypeFT_QNAME, FTType.class, PARAGType.ALINEA.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DATEType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "DATE", scope = ALINEAType.P.class)
-    public JAXBElement<DATEType> createALINEATypePDATE(DATEType value) {
-        return new JAXBElement<DATEType>(_PTypeDATE_QNAME, DATEType.class, ALINEAType.P.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link QUOTENDType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "QUOT.END", scope = ALINEAType.P.class)
-    public JAXBElement<QUOTENDType> createALINEATypePQUOTEND(QUOTENDType value) {
-        return new JAXBElement<QUOTENDType>(_PTypeQUOTEND_QNAME, QUOTENDType.class, ALINEAType.P.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link REFDOCOJType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "REF.DOC.OJ", scope = ALINEAType.P.class)
-    public JAXBElement<REFDOCOJType> createALINEATypePREFDOCOJ(REFDOCOJType value) {
-        return new JAXBElement<REFDOCOJType>(_PTypeREFDOCOJ_QNAME, REFDOCOJType.class, ALINEAType.P.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link QUOTSTARTType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "QUOT.START", scope = ALINEAType.P.class)
-    public JAXBElement<QUOTSTARTType> createALINEATypePQUOTSTART(QUOTSTARTType value) {
-        return new JAXBElement<QUOTSTARTType>(_PTypeQUOTSTART_QNAME, QUOTSTARTType.class, ALINEAType.P.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link HTType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "HT", scope = ALINEAType.P.class)
-    public JAXBElement<HTType> createALINEATypePHT(HTType value) {
-        return new JAXBElement<HTType>(_PTypeHT_QNAME, HTType.class, ALINEAType.P.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link LISTType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "LIST", scope = ALINEAType.P.class)
-    public JAXBElement<LISTType> createALINEATypePLIST(LISTType value) {
-        return new JAXBElement<LISTType>(_PTypeLIST_QNAME, LISTType.class, ALINEAType.P.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link FTType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "FT", scope = ALINEAType.P.class)
-    public JAXBElement<FTType> createALINEATypePFT(FTType value) {
-        return new JAXBElement<FTType>(_PTypeFT_QNAME, FTType.class, ALINEAType.P.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link QUOTENDType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "QUOT.END", scope = ARTICLEType.STIART.class)
-    public JAXBElement<QUOTENDType> createARTICLETypeSTIARTQUOTEND(QUOTENDType value) {
-        return new JAXBElement<QUOTENDType>(_PTypeQUOTEND_QNAME, QUOTENDType.class, ARTICLEType.STIART.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link QUOTSTARTType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "QUOT.START", scope = ARTICLEType.STIART.class)
-    public JAXBElement<QUOTSTARTType> createARTICLETypeSTIARTQUOTSTART(QUOTSTARTType value) {
-        return new JAXBElement<QUOTSTARTType>(_PTypeQUOTSTART_QNAME, QUOTSTARTType.class, ARTICLEType.STIART.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DATEType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "DATE", scope = TXTType.class)
-    public JAXBElement<DATEType> createTXTTypeDATE(DATEType value) {
-        return new JAXBElement<DATEType>(_PTypeDATE_QNAME, DATEType.class, TXTType.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link QUOTENDType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "QUOT.END", scope = TXTType.class)
-    public JAXBElement<QUOTENDType> createTXTTypeQUOTEND(QUOTENDType value) {
-        return new JAXBElement<QUOTENDType>(_PTypeQUOTEND_QNAME, QUOTENDType.class, TXTType.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link NOTEType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "NOTE", scope = TXTType.class)
-    public JAXBElement<NOTEType> createTXTTypeNOTE(NOTEType value) {
-        return new JAXBElement<NOTEType>(_GRVISATypeVISANOTE_QNAME, NOTEType.class, TXTType.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link QUOTSTARTType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "QUOT.START", scope = TXTType.class)
-    public JAXBElement<QUOTSTARTType> createTXTTypeQUOTSTART(QUOTSTARTType value) {
-        return new JAXBElement<QUOTSTARTType>(_PTypeQUOTSTART_QNAME, QUOTSTARTType.class, TXTType.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DATEType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "DATE", scope = PARAGType.ALINEA.P.class)
-    public JAXBElement<DATEType> createPARAGTypeALINEAPDATE(DATEType value) {
-        return new JAXBElement<DATEType>(_PTypeDATE_QNAME, DATEType.class, PARAGType.ALINEA.P.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link QUOTENDType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "QUOT.END", scope = PARAGType.ALINEA.P.class)
-    public JAXBElement<QUOTENDType> createPARAGTypeALINEAPQUOTEND(QUOTENDType value) {
-        return new JAXBElement<QUOTENDType>(_PTypeQUOTEND_QNAME, QUOTENDType.class, PARAGType.ALINEA.P.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link REFDOCOJType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "REF.DOC.OJ", scope = PARAGType.ALINEA.P.class)
-    public JAXBElement<REFDOCOJType> createPARAGTypeALINEAPREFDOCOJ(REFDOCOJType value) {
-        return new JAXBElement<REFDOCOJType>(_PTypeREFDOCOJ_QNAME, REFDOCOJType.class, PARAGType.ALINEA.P.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link QUOTSTARTType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "QUOT.START", scope = PARAGType.ALINEA.P.class)
-    public JAXBElement<QUOTSTARTType> createPARAGTypeALINEAPQUOTSTART(QUOTSTARTType value) {
-        return new JAXBElement<QUOTSTARTType>(_PTypeQUOTSTART_QNAME, QUOTSTARTType.class, PARAGType.ALINEA.P.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link HTType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "HT", scope = PARAGType.ALINEA.P.class)
-    public JAXBElement<HTType> createPARAGTypeALINEAPHT(HTType value) {
-        return new JAXBElement<HTType>(_PTypeHT_QNAME, HTType.class, PARAGType.ALINEA.P.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link LISTType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "LIST", scope = PARAGType.ALINEA.P.class)
-    public JAXBElement<LISTType> createPARAGTypeALINEAPLIST(LISTType value) {
-        return new JAXBElement<LISTType>(_PTypeLIST_QNAME, LISTType.class, PARAGType.ALINEA.P.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link FTType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "FT", scope = PARAGType.ALINEA.P.class)
-    public JAXBElement<FTType> createPARAGTypeALINEAPFT(FTType value) {
-        return new JAXBElement<FTType>(_PTypeFT_QNAME, FTType.class, PARAGType.ALINEA.P.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DATEType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "DATE", scope = NPType.P.class)
-    public JAXBElement<DATEType> createNPTypePDATE(DATEType value) {
-        return new JAXBElement<DATEType>(_PTypeDATE_QNAME, DATEType.class, NPType.P.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link QUOTENDType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "QUOT.END", scope = NPType.P.class)
-    public JAXBElement<QUOTENDType> createNPTypePQUOTEND(QUOTENDType value) {
-        return new JAXBElement<QUOTENDType>(_PTypeQUOTEND_QNAME, QUOTENDType.class, NPType.P.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link REFDOCOJType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "REF.DOC.OJ", scope = NPType.P.class)
-    public JAXBElement<REFDOCOJType> createNPTypePREFDOCOJ(REFDOCOJType value) {
-        return new JAXBElement<REFDOCOJType>(_PTypeREFDOCOJ_QNAME, REFDOCOJType.class, NPType.P.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link QUOTSTARTType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "QUOT.START", scope = NPType.P.class)
-    public JAXBElement<QUOTSTARTType> createNPTypePQUOTSTART(QUOTSTARTType value) {
-        return new JAXBElement<QUOTSTARTType>(_PTypeQUOTSTART_QNAME, QUOTSTARTType.class, NPType.P.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link HTType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "HT", scope = NPType.P.class)
-    public JAXBElement<HTType> createNPTypePHT(HTType value) {
-        return new JAXBElement<HTType>(_PTypeHT_QNAME, HTType.class, NPType.P.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link LISTType }{@code >}}
-     * 
-     */
-    @XmlElementDecl(namespace = "", name = "LIST", scope = NPType.P.class)
-    public JAXBElement<LISTType> createNPTypePLIST(LISTType value) {
-        return new JAXBElement<LISTType>(_PTypeLIST_QNAME, LISTType.class, NPType.P.class, value);
+    @XmlElementDecl(namespace = "", name = "ft", scope = ParagraphType.Alinea.P.class)
+    public JAXBElement<FtType> createParagraphTypeAlineaPFt(FtType value) {
+        return new JAXBElement<FtType>(_PTypeFt_QNAME, FtType.class, ParagraphType.Alinea.P.class, value);
     }
 
 }

@@ -14,21 +14,19 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for pType complex type.
+ * <p>Java class for txtType complex type.
  * 
  * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
- * &lt;complexType name="pType">
+ * &lt;complexType name="txtType">
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
- *       &lt;sequence>
- *         &lt;element name="highlight" type="{}highlightType" maxOccurs="unbounded" minOccurs="0"/>
- *         &lt;element name="date" type="{}dateType" minOccurs="0"/>
- *         &lt;element name="quote" type="{}quoteType" maxOccurs="unbounded" minOccurs="0"/>
- *         &lt;element name="reference" type="{}referenceType" minOccurs="0"/>
- *         &lt;element name="ft" type="{}ftType" minOccurs="0"/>
- *       &lt;/sequence>
+ *       &lt;choice maxOccurs="unbounded" minOccurs="0">
+ *         &lt;element name="quote" type="{}quoteType"/>
+ *         &lt;element name="note" type="{}noteType"/>
+ *         &lt;element name="date" type="{}dateType"/>
+ *       &lt;/choice>
  *     &lt;/restriction>
  *   &lt;/complexContent>
  * &lt;/complexType>
@@ -37,17 +35,15 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "pType", propOrder = {
+@XmlType(name = "txtType", propOrder = {
     "content"
 })
-public class PType {
+public class TxtType {
 
     @XmlElementRefs({
-        @XmlElementRef(name = "date", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "reference", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "note", type = JAXBElement.class, required = false),
         @XmlElementRef(name = "quote", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "ft", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "highlight", type = JAXBElement.class, required = false)
+        @XmlElementRef(name = "date", type = JAXBElement.class, required = false)
     })
     @XmlMixed
     protected List<Serializable> content;
@@ -70,12 +66,10 @@ public class PType {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link JAXBElement }{@code <}{@link DateType }{@code >}
-     * {@link String }
-     * {@link JAXBElement }{@code <}{@link ReferenceType }{@code >}
-     * {@link JAXBElement }{@code <}{@link HighlightType }{@code >}
      * {@link JAXBElement }{@code <}{@link QuoteType }{@code >}
-     * {@link JAXBElement }{@code <}{@link FtType }{@code >}
+     * {@link String }
+     * {@link JAXBElement }{@code <}{@link DateType }{@code >}
+     * {@link JAXBElement }{@code <}{@link NoteType }{@code >}
      * 
      * 
      */

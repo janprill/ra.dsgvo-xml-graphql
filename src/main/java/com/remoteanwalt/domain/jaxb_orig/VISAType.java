@@ -1,33 +1,29 @@
 
-package com.remoteanwalt.domain.jaxb;
+package com.remoteanwalt.domain.jaxb_orig;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+import javax.annotation.Generated;
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElementRef;
-import javax.xml.bind.annotation.XmlElementRefs;
 import javax.xml.bind.annotation.XmlMixed;
 import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for pType complex type.
+ * <p>Java class for VISAType complex type.
  * 
  * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
- * &lt;complexType name="pType">
+ * &lt;complexType name="VISAType">
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="highlight" type="{}highlightType" maxOccurs="unbounded" minOccurs="0"/>
- *         &lt;element name="date" type="{}dateType" minOccurs="0"/>
- *         &lt;element name="quote" type="{}quoteType" maxOccurs="unbounded" minOccurs="0"/>
- *         &lt;element name="reference" type="{}referenceType" minOccurs="0"/>
- *         &lt;element name="ft" type="{}ftType" minOccurs="0"/>
+ *         &lt;element name="NOTE" type="{}NOTEType" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -37,19 +33,15 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "pType", propOrder = {
+@XmlType(name = "VISAType", propOrder = {
     "content"
 })
-public class PType {
+@Generated(value = "com.sun.tools.internal.xjc.Driver", date = "2020-08-04T07:43:30+02:00", comments = "JAXB RI v2.2.8-b130911.1802")
+public class VISAType {
 
-    @XmlElementRefs({
-        @XmlElementRef(name = "date", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "reference", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "quote", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "ft", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "highlight", type = JAXBElement.class, required = false)
-    })
+    @XmlElementRef(name = "NOTE", type = JAXBElement.class, required = false)
     @XmlMixed
+    @Generated(value = "com.sun.tools.internal.xjc.Driver", date = "2020-08-04T07:43:30+02:00", comments = "JAXB RI v2.2.8-b130911.1802")
     protected List<Serializable> content;
 
     /**
@@ -70,15 +62,12 @@ public class PType {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link JAXBElement }{@code <}{@link DateType }{@code >}
      * {@link String }
-     * {@link JAXBElement }{@code <}{@link ReferenceType }{@code >}
-     * {@link JAXBElement }{@code <}{@link HighlightType }{@code >}
-     * {@link JAXBElement }{@code <}{@link QuoteType }{@code >}
-     * {@link JAXBElement }{@code <}{@link FtType }{@code >}
+     * {@link JAXBElement }{@code <}{@link NOTEType }{@code >}
      * 
      * 
      */
+    @Generated(value = "com.sun.tools.internal.xjc.Driver", date = "2020-08-04T07:43:30+02:00", comments = "JAXB RI v2.2.8-b130911.1802")
     public List<Serializable> getContent() {
         if (content == null) {
             content = new ArrayList<Serializable>();

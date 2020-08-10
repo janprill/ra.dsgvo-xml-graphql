@@ -53,6 +53,14 @@
     </highlight>
   </xsl:template>
 
+  <xsl:template match="FT">
+    <ft>
+      <type><xsl:value-of select="@TYPE"/></type>
+      <text><xsl:value-of select="text()"/></text>
+      <xsl:apply-templates select="FT" />
+    </ft>
+  </xsl:template>
+
   <xsl:template match="ENACTING.TERMS">
     <xsl:apply-templates select="//DIVISION" />
   </xsl:template>

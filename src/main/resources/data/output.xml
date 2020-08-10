@@ -9229,7 +9229,10 @@ Recht auf Vergessenwerden
                         <p>
                             Bei Verstößen gegen die folgenden Bestimmungen werden im Einklang mit Absatz 2 Geldbußen von bis zu 
                             
-                            <FT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce" TYPE="NUMBER">10000000</FT>
+                            <ft>
+                                <type>NUMBER</type>
+                                <text>10000000</text>
+                            </ft>
                              EUR oder im Fall eines Unternehmens von bis zu 2 % seines gesamten weltweit erzielten Jahresumsatzes des vorangegangenen Geschäftsjahrs verhängt, je nachdem, welcher der Beträge höher ist:
                         
                         </p>
@@ -9256,7 +9259,10 @@ Recht auf Vergessenwerden
                         <p>
                             Bei Verstößen gegen die folgenden Bestimmungen werden im Einklang mit Absatz 2 Geldbußen von bis zu 
                             
-                            <FT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce" TYPE="NUMBER">20000000</FT>
+                            <ft>
+                                <type>NUMBER</type>
+                                <text>20000000</text>
+                            </ft>
                              EUR oder im Fall eines Unternehmens von bis zu 4 % seines gesamten weltweit erzielten Jahresumsatzes des vorangegangenen Geschäftsjahrs verhängt, je nachdem, welcher der Beträge höher ist:
                         
                         </p>
@@ -9290,7 +9296,10 @@ Recht auf Vergessenwerden
                     <alinea>
                         Bei Nichtbefolgung einer Anweisung der Aufsichtsbehörde gemäß Artikel 58 Absatz 2 werden im Einklang mit Absatz 2 des vorliegenden Artikels Geldbußen von bis zu 
                         
-                        <FT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmx="http://opoce" TYPE="NUMBER">20000000</FT>
+                        <ft>
+                            <type>NUMBER</type>
+                            <text>20000000</text>
+                        </ft>
                          EUR oder im Fall eines Unternehmens von bis zu 4 % seines gesamten weltweit erzielten Jahresumsatzes des vorangegangenen Geschäftsjahrs verhängt, je nachdem, welcher der Beträge höher ist.
                     
                     </alinea>

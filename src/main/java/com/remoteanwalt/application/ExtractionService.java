@@ -2,7 +2,7 @@ package com.remoteanwalt.application;
 
 import com.remoteanwalt.domain.consolidated.Consideration;
 import com.remoteanwalt.domain.consolidated.Item;
-import com.remoteanwalt.domain.jaxb.*;
+import com.remoteanwalt.domain.jaxb_orig.*;
 
 import javax.xml.bind.JAXBElement;
 import java.io.Serializable;
