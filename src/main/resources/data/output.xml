@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><dsgvo>
+    <title>
+        <p>
+            <highlight>
+                <type>UC</type>
+                <text>Verordnung</text>
+            </highlight>
+             (EU) 2016/679 
+                
+            <highlight>
+                <type>UC</type>
+                <text>des Europäischen Parlaments und des Rates</text>
+            </highlight>
+        </p>
+        <p>
+            vom 
+                
+            <date>
+                <iso>20160427</iso>
+                <datestr>27. April 2016</datestr>
+            </date>
+        </p>
+        <p>zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten, zum freien Datenverkehr und zur Aufhebung der Richtlinie 95/46/EG (Datenschutz-Grundverordnung)</p>
+        <p>(Text von Bedeutung für den EWR)</p>
+    </title>
     <preamble>
         <np>
             <id>(1)</id>
@@ -1530,7 +1554,6 @@
                     <highlight>
                         <type>ITALIC</type>
                         <text>KAPITEL I</text>
-                        KAPITEL I
                     </highlight>
                 </p>
             </title>
@@ -1542,7 +1565,6 @@
                         <highlight>
                             <type>ITALIC</type>
                             <text>Allgemeine Bestimmungen</text>
-                            Allgemeine Bestimmungen
                         </highlight>
                     </highlight>
                 </p>
@@ -1656,7 +1678,6 @@
                     <highlight>
                         <type>ITALIC</type>
                         <text>KAPITEL II</text>
-                        KAPITEL II
                     </highlight>
                 </p>
             </title>
@@ -1668,7 +1689,6 @@
                         <highlight>
                             <type>ITALIC</type>
                             <text>Grundsätze</text>
-                            Grundsätze
                         </highlight>
                     </highlight>
                 </p>
@@ -2060,7 +2080,6 @@
                     <highlight>
                         <type>ITALIC</type>
                         <text>KAPITEL III</text>
-                        KAPITEL III
                     </highlight>
                 </p>
             </title>
@@ -2072,7 +2091,6 @@
                         <highlight>
                             <type>ITALIC</type>
                             <text>Rechte der betroffenen Person</text>
-                            Rechte der betroffenen Person
                         </highlight>
                     </highlight>
                 </p>
@@ -2083,7 +2101,6 @@
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Abschnitt 1</text>
-                            Abschnitt 1
                         </highlight>
                     </p>
                 </title>
@@ -2095,7 +2112,6 @@
                             <highlight>
                                 <type>EXPANDED</type>
                                 <text>Transparenz und Modalitäten</text>
-                                Transparenz und Modalitäten
                             </highlight>
                         </highlight>
                     </p>
@@ -2165,7 +2181,6 @@
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Abschnitt 2</text>
-                            Abschnitt 2
                         </highlight>
                     </p>
                 </title>
@@ -2177,7 +2192,6 @@
                             <highlight>
                                 <type>EXPANDED</type>
                                 <text>Informationspflicht und Recht auf Auskunft zu personenbezogenen Daten</text>
-                                Informationspflicht und Recht auf Auskunft zu personenbezogenen Daten
                             </highlight>
                         </highlight>
                     </p>
@@ -2458,7 +2472,6 @@
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Abschnitt 3</text>
-                            Abschnitt 3
                         </highlight>
                     </p>
                 </title>
@@ -2470,7 +2483,6 @@
                             <highlight>
                                 <type>EXPANDED</type>
                                 <text>Berichtigung und Löschung</text>
-                                Berichtigung und Löschung
                             </highlight>
                         </highlight>
                     </p>
@@ -2646,7 +2658,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Abschnitt 4</text>
-                            Abschnitt 4
                         </highlight>
                     </p>
                 </title>
@@ -2658,7 +2669,6 @@ Recht auf Vergessenwerden
                             <highlight>
                                 <type>EXPANDED</type>
                                 <text>Widerspruchsrecht und automatisierte Entscheidungsfindung im Einzelfall</text>
-                                Widerspruchsrecht und automatisierte Entscheidungsfindung im Einzelfall
                             </highlight>
                         </highlight>
                     </p>
@@ -2746,7 +2756,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Abschnitt 5</text>
-                            Abschnitt 5
                         </highlight>
                     </p>
                 </title>
@@ -2758,7 +2767,6 @@ Recht auf Vergessenwerden
                             <highlight>
                                 <type>EXPANDED</type>
                                 <text>Beschränkungen</text>
-                                Beschränkungen
                             </highlight>
                         </highlight>
                     </p>
@@ -2866,7 +2874,6 @@ Recht auf Vergessenwerden
                     <highlight>
                         <type>EXPANDED</type>
                         <text>Abschnitt 1</text>
-                        Abschnitt 1
                     </highlight>
                 </p>
             </title>
@@ -2878,7 +2885,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Transparenz und Modalitäten</text>
-                            Transparenz und Modalitäten
                         </highlight>
                     </highlight>
                 </p>
@@ -2948,7 +2954,6 @@ Recht auf Vergessenwerden
                     <highlight>
                         <type>EXPANDED</type>
                         <text>Abschnitt 2</text>
-                        Abschnitt 2
                     </highlight>
                 </p>
             </title>
@@ -2960,7 +2965,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Informationspflicht und Recht auf Auskunft zu personenbezogenen Daten</text>
-                            Informationspflicht und Recht auf Auskunft zu personenbezogenen Daten
                         </highlight>
                     </highlight>
                 </p>
@@ -3241,7 +3245,6 @@ Recht auf Vergessenwerden
                     <highlight>
                         <type>EXPANDED</type>
                         <text>Abschnitt 3</text>
-                        Abschnitt 3
                     </highlight>
                 </p>
             </title>
@@ -3253,7 +3256,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Berichtigung und Löschung</text>
-                            Berichtigung und Löschung
                         </highlight>
                     </highlight>
                 </p>
@@ -3429,7 +3431,6 @@ Recht auf Vergessenwerden
                     <highlight>
                         <type>EXPANDED</type>
                         <text>Abschnitt 4</text>
-                        Abschnitt 4
                     </highlight>
                 </p>
             </title>
@@ -3441,7 +3442,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Widerspruchsrecht und automatisierte Entscheidungsfindung im Einzelfall</text>
-                            Widerspruchsrecht und automatisierte Entscheidungsfindung im Einzelfall
                         </highlight>
                     </highlight>
                 </p>
@@ -3529,7 +3529,6 @@ Recht auf Vergessenwerden
                     <highlight>
                         <type>EXPANDED</type>
                         <text>Abschnitt 5</text>
-                        Abschnitt 5
                     </highlight>
                 </p>
             </title>
@@ -3541,7 +3540,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Beschränkungen</text>
-                            Beschränkungen
                         </highlight>
                     </highlight>
                 </p>
@@ -3648,7 +3646,6 @@ Recht auf Vergessenwerden
                     <highlight>
                         <type>ITALIC</type>
                         <text>KAPITEL IV</text>
-                        KAPITEL IV
                     </highlight>
                 </p>
             </title>
@@ -3660,7 +3657,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>ITALIC</type>
                             <text>Verantwortlicher und Auftragsverarbeiter</text>
-                            Verantwortlicher und Auftragsverarbeiter
                         </highlight>
                     </highlight>
                 </p>
@@ -3671,7 +3667,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Abschnitt 1</text>
-                            Abschnitt 1
                         </highlight>
                     </p>
                 </title>
@@ -3683,7 +3678,6 @@ Recht auf Vergessenwerden
                             <highlight>
                                 <type>EXPANDED</type>
                                 <text>Allgemeine Pflichten</text>
-                                Allgemeine Pflichten
                             </highlight>
                         </highlight>
                     </p>
@@ -3982,7 +3976,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Abschnitt 2</text>
-                            Abschnitt 2
                         </highlight>
                     </p>
                 </title>
@@ -3994,7 +3987,6 @@ Recht auf Vergessenwerden
                             <highlight>
                                 <type>EXPANDED</type>
                                 <text>Sicherheit personenbezogener Daten</text>
-                                Sicherheit personenbezogener Daten
                             </highlight>
                         </highlight>
                     </p>
@@ -4142,7 +4134,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Abschnitt 3</text>
-                            Abschnitt 3
                         </highlight>
                     </p>
                 </title>
@@ -4154,7 +4145,6 @@ Recht auf Vergessenwerden
                             <highlight>
                                 <type>EXPANDED</type>
                                 <text>Datenschutz-Folgenabschätzung und vorherige Konsultation</text>
-                                Datenschutz-Folgenabschätzung und vorherige Konsultation
                             </highlight>
                         </highlight>
                     </p>
@@ -4320,7 +4310,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Abschnitt 4</text>
-                            Abschnitt 4
                         </highlight>
                     </p>
                 </title>
@@ -4332,7 +4321,6 @@ Recht auf Vergessenwerden
                             <highlight>
                                 <type>EXPANDED</type>
                                 <text>Datenschutzbeauftragter</text>
-                                Datenschutzbeauftragter
                             </highlight>
                         </highlight>
                     </p>
@@ -4474,7 +4462,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Abschnitt 5</text>
-                            Abschnitt 5
                         </highlight>
                     </p>
                 </title>
@@ -4486,7 +4473,6 @@ Recht auf Vergessenwerden
                             <highlight>
                                 <type>EXPANDED</type>
                                 <text>Verhaltensregeln und Zertifizierung</text>
-                                Verhaltensregeln und Zertifizierung
                             </highlight>
                         </highlight>
                     </p>
@@ -4822,7 +4808,6 @@ Recht auf Vergessenwerden
                     <highlight>
                         <type>EXPANDED</type>
                         <text>Abschnitt 1</text>
-                        Abschnitt 1
                     </highlight>
                 </p>
             </title>
@@ -4834,7 +4819,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Allgemeine Pflichten</text>
-                            Allgemeine Pflichten
                         </highlight>
                     </highlight>
                 </p>
@@ -5133,7 +5117,6 @@ Recht auf Vergessenwerden
                     <highlight>
                         <type>EXPANDED</type>
                         <text>Abschnitt 2</text>
-                        Abschnitt 2
                     </highlight>
                 </p>
             </title>
@@ -5145,7 +5128,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Sicherheit personenbezogener Daten</text>
-                            Sicherheit personenbezogener Daten
                         </highlight>
                     </highlight>
                 </p>
@@ -5293,7 +5275,6 @@ Recht auf Vergessenwerden
                     <highlight>
                         <type>EXPANDED</type>
                         <text>Abschnitt 3</text>
-                        Abschnitt 3
                     </highlight>
                 </p>
             </title>
@@ -5305,7 +5286,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Datenschutz-Folgenabschätzung und vorherige Konsultation</text>
-                            Datenschutz-Folgenabschätzung und vorherige Konsultation
                         </highlight>
                     </highlight>
                 </p>
@@ -5471,7 +5451,6 @@ Recht auf Vergessenwerden
                     <highlight>
                         <type>EXPANDED</type>
                         <text>Abschnitt 4</text>
-                        Abschnitt 4
                     </highlight>
                 </p>
             </title>
@@ -5483,7 +5462,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Datenschutzbeauftragter</text>
-                            Datenschutzbeauftragter
                         </highlight>
                     </highlight>
                 </p>
@@ -5625,7 +5603,6 @@ Recht auf Vergessenwerden
                     <highlight>
                         <type>EXPANDED</type>
                         <text>Abschnitt 5</text>
-                        Abschnitt 5
                     </highlight>
                 </p>
             </title>
@@ -5637,7 +5614,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Verhaltensregeln und Zertifizierung</text>
-                            Verhaltensregeln und Zertifizierung
                         </highlight>
                     </highlight>
                 </p>
@@ -5972,7 +5948,6 @@ Recht auf Vergessenwerden
                     <highlight>
                         <type>ITALIC</type>
                         <text>KAPITEL V</text>
-                        KAPITEL V
                     </highlight>
                 </p>
             </title>
@@ -5984,7 +5959,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>ITALIC</type>
                             <text>Übermittlungen personenbezogener Daten an Drittländer oder an internationale Organisationen</text>
-                            Übermittlungen personenbezogener Daten an Drittländer oder an internationale Organisationen
                         </highlight>
                     </highlight>
                 </p>
@@ -6060,7 +6034,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>ITALIC</type>
                             <text>Amtsblatt der Europäischen Union</text>
-                            Amtsblatt der Europäischen Union
                         </highlight>
                          und auf ihrer Website eine Liste aller Drittländer beziehungsweise Gebiete und spezifischen Sektoren in einem Drittland und aller internationalen Organisationen, für die sie durch Beschluss festgestellt hat, dass sie ein angemessenes Schutzniveau gewährleisten bzw. nicht mehr gewährleisten.
                     
@@ -6323,7 +6296,6 @@ Recht auf Vergessenwerden
                     <highlight>
                         <type>ITALIC</type>
                         <text>KAPITEL VI</text>
-                        KAPITEL VI
                     </highlight>
                 </p>
             </title>
@@ -6335,7 +6307,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>ITALIC</type>
                             <text>Unabhängige Aufsichtsbehörden</text>
-                            Unabhängige Aufsichtsbehörden
                         </highlight>
                     </highlight>
                 </p>
@@ -6346,7 +6317,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Abschnitt 1</text>
-                            Abschnitt 1
                         </highlight>
                     </p>
                 </title>
@@ -6358,7 +6328,6 @@ Recht auf Vergessenwerden
                             <highlight>
                                 <type>EXPANDED</type>
                                 <text>Unabhängigkeit</text>
-                                Unabhängigkeit
                             </highlight>
                         </highlight>
                     </p>
@@ -6548,7 +6517,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Abschnitt 2</text>
-                            Abschnitt 2
                         </highlight>
                     </p>
                 </title>
@@ -6560,7 +6528,6 @@ Recht auf Vergessenwerden
                             <highlight>
                                 <type>EXPANDED</type>
                                 <text>Zuständigkeit, Aufgaben und Befugnisse</text>
-                                Zuständigkeit, Aufgaben und Befugnisse
                             </highlight>
                         </highlight>
                     </p>
@@ -6901,7 +6868,6 @@ Recht auf Vergessenwerden
                     <highlight>
                         <type>EXPANDED</type>
                         <text>Abschnitt 1</text>
-                        Abschnitt 1
                     </highlight>
                 </p>
             </title>
@@ -6913,7 +6879,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Unabhängigkeit</text>
-                            Unabhängigkeit
                         </highlight>
                     </highlight>
                 </p>
@@ -7103,7 +7068,6 @@ Recht auf Vergessenwerden
                     <highlight>
                         <type>EXPANDED</type>
                         <text>Abschnitt 2</text>
-                        Abschnitt 2
                     </highlight>
                 </p>
             </title>
@@ -7115,7 +7079,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Zuständigkeit, Aufgaben und Befugnisse</text>
-                            Zuständigkeit, Aufgaben und Befugnisse
                         </highlight>
                     </highlight>
                 </p>
@@ -7455,7 +7418,6 @@ Recht auf Vergessenwerden
                     <highlight>
                         <type>ITALIC</type>
                         <text>KAPITEL VII</text>
-                        KAPITEL VII
                     </highlight>
                 </p>
             </title>
@@ -7467,7 +7429,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>ITALIC</type>
                             <text>Zusammenarbeit und Kohärenz</text>
-                            Zusammenarbeit und Kohärenz
                         </highlight>
                     </highlight>
                 </p>
@@ -7478,7 +7439,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Abschnitt 1</text>
-                            Abschnitt 1
                         </highlight>
                     </p>
                 </title>
@@ -7490,7 +7450,6 @@ Recht auf Vergessenwerden
                             <highlight>
                                 <type>EXPANDED</type>
                                 <text>Zusammenarbeit</text>
-                                Zusammenarbeit
                             </highlight>
                         </highlight>
                     </p>
@@ -7669,7 +7628,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Abschnitt 2</text>
-                            Abschnitt 2
                         </highlight>
                     </p>
                 </title>
@@ -7681,7 +7639,6 @@ Recht auf Vergessenwerden
                             <highlight>
                                 <type>EXPANDED</type>
                                 <text>Kohärenz</text>
-                                Kohärenz
                             </highlight>
                         </highlight>
                     </p>
@@ -7865,7 +7822,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Abschnitt 3</text>
-                            Abschnitt 3
                         </highlight>
                     </p>
                 </title>
@@ -7877,7 +7833,6 @@ Recht auf Vergessenwerden
                             <highlight>
                                 <type>EXPANDED</type>
                                 <text>Europäischer Datenschutzausschuss</text>
-                                Europäischer Datenschutzausschuss
                             </highlight>
                         </highlight>
                     </p>
@@ -8272,7 +8227,6 @@ Recht auf Vergessenwerden
                     <highlight>
                         <type>EXPANDED</type>
                         <text>Abschnitt 1</text>
-                        Abschnitt 1
                     </highlight>
                 </p>
             </title>
@@ -8284,7 +8238,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Zusammenarbeit</text>
-                            Zusammenarbeit
                         </highlight>
                     </highlight>
                 </p>
@@ -8463,7 +8416,6 @@ Recht auf Vergessenwerden
                     <highlight>
                         <type>EXPANDED</type>
                         <text>Abschnitt 2</text>
-                        Abschnitt 2
                     </highlight>
                 </p>
             </title>
@@ -8475,7 +8427,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Kohärenz</text>
-                            Kohärenz
                         </highlight>
                     </highlight>
                 </p>
@@ -8659,7 +8610,6 @@ Recht auf Vergessenwerden
                     <highlight>
                         <type>EXPANDED</type>
                         <text>Abschnitt 3</text>
-                        Abschnitt 3
                     </highlight>
                 </p>
             </title>
@@ -8671,7 +8621,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>EXPANDED</type>
                             <text>Europäischer Datenschutzausschuss</text>
-                            Europäischer Datenschutzausschuss
                         </highlight>
                     </highlight>
                 </p>
@@ -9065,7 +9014,6 @@ Recht auf Vergessenwerden
                     <highlight>
                         <type>ITALIC</type>
                         <text>KAPITEL VIII</text>
-                        KAPITEL VIII
                     </highlight>
                 </p>
             </title>
@@ -9077,7 +9025,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>ITALIC</type>
                             <text>Rechtsbehelfe, Haftung und Sanktionen</text>
-                            Rechtsbehelfe, Haftung und Sanktionen
                         </highlight>
                     </highlight>
                 </p>
@@ -9404,7 +9351,6 @@ Recht auf Vergessenwerden
                     <highlight>
                         <type>ITALIC</type>
                         <text>KAPITEL IX</text>
-                        KAPITEL IX
                     </highlight>
                 </p>
             </title>
@@ -9416,7 +9362,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>ITALIC</type>
                             <text>Vorschriften für besondere Verarbeitungssituationen</text>
-                            Vorschriften für besondere Verarbeitungssituationen
                         </highlight>
                     </highlight>
                 </p>
@@ -9557,7 +9502,6 @@ Recht auf Vergessenwerden
                     <highlight>
                         <type>ITALIC</type>
                         <text>KAPITEL X</text>
-                        KAPITEL X
                     </highlight>
                 </p>
             </title>
@@ -9569,7 +9513,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>ITALIC</type>
                             <text>Delegierte Rechtsakte und Durchführungsrechtsakte</text>
-                            Delegierte Rechtsakte und Durchführungsrechtsakte
                         </highlight>
                     </highlight>
                 </p>
@@ -9640,7 +9583,6 @@ Recht auf Vergessenwerden
                     <highlight>
                         <type>ITALIC</type>
                         <text>KAPITEL XI</text>
-                        KAPITEL XI
                     </highlight>
                 </p>
             </title>
@@ -9652,7 +9594,6 @@ Recht auf Vergessenwerden
                         <highlight>
                             <type>ITALIC</type>
                             <text>Schlussbestimmungen</text>
-                            Schlussbestimmungen
                         </highlight>
                     </highlight>
                 </p>

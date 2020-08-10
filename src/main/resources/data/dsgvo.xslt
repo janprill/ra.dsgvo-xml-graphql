@@ -8,11 +8,12 @@
 
   <xsl:template match="/">
     <dsgvo>
+      <xsl:apply-templates select="ACT/TITLE" />
       <preamble>
-        <xsl:apply-templates select="//PREAMBLE" />
+        <xsl:apply-templates select="ACT/PREAMBLE" />
       </preamble>
       <terms>
-        <xsl:apply-templates select="//ENACTING.TERMS"/>
+        <xsl:apply-templates select="ACT/ENACTING.TERMS"/>
       </terms>
     </dsgvo>
   </xsl:template>
@@ -48,7 +49,7 @@
     <highlight>
       <type><xsl:value-of select="@TYPE"/></type>
       <text><xsl:value-of select="text()"/></text>
-      <xsl:apply-templates/>
+      <xsl:apply-templates select="HT" />
     </highlight>
   </xsl:template>
 
