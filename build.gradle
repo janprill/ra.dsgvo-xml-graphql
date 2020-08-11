@@ -9,6 +9,10 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.apache.camel.quarkus:camel-quarkus-timer'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-log'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-main'
+    implementation 'org.apache.camel.quarkus:camel-quarkus-graphql'
     implementation 'org.apache.camel.quarkus:camel-quarkus-xslt'
     implementation 'io.quarkus:quarkus-resteasy-jackson'
     implementation 'io.quarkus:quarkus-jaxb'
