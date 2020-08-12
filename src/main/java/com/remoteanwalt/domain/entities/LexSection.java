@@ -22,6 +22,8 @@ public class LexSection {
     private LexSection lexSection;
     @OneToMany(mappedBy = "lexSection")
     private List<LexSection> lexSections;
+    @OneToMany(mappedBy = "lexSection")
+    private List<Norm> norms;
 
     public void setId(Long id) {
         this.id = id;
@@ -63,4 +65,7 @@ public class LexSection {
         this.sorting = sorting;
     }
 
+    public List<Norm> getNorms() {
+        return norms;
+    }
 }
