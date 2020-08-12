@@ -1,9 +1,7 @@
 package com.remoteanwalt.domain.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "legislations")
@@ -15,6 +13,8 @@ public class Legislation {
     private String title;
     private String subtitle;
     private String raw;
+    @OneToMany(mappedBy = "legislation")
+    private List<LexSection> lexSections;
 
 
     public void setId(Long id) {
@@ -55,5 +55,9 @@ public class Legislation {
 
     public void setRaw(String raw) {
         this.raw = raw;
+    }
+
+    public List<LexSection> getLexSections() {
+        return lexSections;
     }
 }
