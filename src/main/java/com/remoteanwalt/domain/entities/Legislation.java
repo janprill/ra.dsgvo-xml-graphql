@@ -5,9 +5,7 @@ import org.hibernate.annotations.Type;
 import org.hibernate.annotations.TypeDef;
 
 import javax.persistence.*;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 @Entity
 @Table(name = "legislations")
@@ -21,7 +19,7 @@ public class Legislation {
     private String subtitle;
     @Type(type = "jsonb")
     @Column(columnDefinition = "jsonb")
-    private Map<String, String> raw = new HashMap<>();
+    private Object raw;
 
     @OneToMany(mappedBy = "legislation")
     private List<LexSection> lexSections;
@@ -63,11 +61,11 @@ public class Legislation {
         return lexSections;
     }
 
-    public Map<String, String> getRaw() {
+    public Object getRaw() {
         return raw;
     }
 
-    public void setRaw(Map<String, String> raw) {
+    public void setRaw(Object raw) {
         this.raw = raw;
     }
 }
